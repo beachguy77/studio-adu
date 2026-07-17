@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { navLinks } from "@/lib/site";
 
@@ -37,10 +38,6 @@ export default function Header({
   return (
     <header className={`site-header${solid ? " scrolled" : ""}`} id="top">
       <div className="container header-inner">
-        <Link href="/" className="logo" onClick={closeMenu}>
-          Studio <span>IA</span>
-        </Link>
-
         <button
           className="nav-toggle"
           type="button"
@@ -68,6 +65,17 @@ export default function Header({
             </Link>
           ))}
         </nav>
+
+        <Link href="/" className="logo" onClick={closeMenu}>
+          <Image
+            src="/studio-ia-logo.png"
+            alt="Studio IA"
+            width={250}
+            height={150}
+            className="logo-img"
+            priority
+          />
+        </Link>
       </div>
     </header>
   );
