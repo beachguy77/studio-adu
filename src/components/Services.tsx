@@ -1,25 +1,38 @@
-import { services } from "@/lib/content";
+import Link from "next/link";
+import { servicesPreview } from "@/lib/content";
+import Reveal from "@/components/Reveal";
 
 export default function Services() {
   return (
     <section className="services section" id="services">
       <div className="container">
-        <div className="section-header">
-          <p className="eyebrow">What we offer</p>
-          <h2>Services at every stage</h2>
-          <p className="section-lead">
-            We work vertically — engage us for the full journey or stop at any
-            step along the way.
-          </p>
-        </div>
+        <Reveal>
+          <div className="section-header">
+            <p className="eyebrow">What we offer</p>
+            <h2>ADU services at every stage</h2>
+            <p className="section-lead">
+              Engage us for the full journey, or stop at any step —{" "}
+              <Link href="/services/adu-design">design</Link>,{" "}
+              <Link href="/services/permitting">permitting</Link>,{" "}
+              <Link href="/services/adu-construction">construction</Link>, or{" "}
+              <Link href="/services/design-build">design-build</Link>.
+            </p>
+          </div>
+        </Reveal>
 
-        <div className="services-grid">
-          {services.map((service) => (
-            <article key={service.step} className="service-card">
-              <span className="service-step">{service.step}</span>
-              <h3>{service.title}</h3>
-              <p>{service.description}</p>
-            </article>
+        <div className="services-list">
+          {servicesPreview.map((service, index) => (
+            <Reveal key={service.step} delay={index * 60}>
+              <article className="service-item">
+                <span className="service-step">{service.step}</span>
+                <div className="service-copy">
+                  <h3>
+                    <Link href={service.href}>{service.title}</Link>
+                  </h3>
+                  <p>{service.description}</p>
+                </div>
+              </article>
+            </Reveal>
           ))}
         </div>
       </div>

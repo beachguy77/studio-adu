@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { DM_Sans, Playfair_Display } from "next/font/google";
-import { siteConfig } from "@/lib/content";
+import { siteConfig, siteUrl } from "@/lib/site";
+import { localBusinessJsonLd } from "@/lib/seo";
+import JsonLd from "@/components/JsonLd";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -17,8 +19,38 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Studio IA | Design & Construction — Santa Barbara",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Studio IA | ADU Design & Construction in Santa Barbara",
+    template: "%s | Studio IA",
+  },
   description: siteConfig.description,
+  applicationName: siteConfig.name,
+  authors: [{ name: siteConfig.founder.name }],
+  creator: siteConfig.founder.name,
+  publisher: siteConfig.name,
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    type: "website",
+    locale: siteConfig.locale,
+    url: siteUrl,
+    siteName: siteConfig.name,
+    title: "Studio IA | ADU Design & Construction in Santa Barbara",
+    description: siteConfig.description,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Studio IA | ADU Design & Construction in Santa Barbara",
+    description: siteConfig.description,
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
@@ -28,7 +60,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${dmSans.variable} ${playfair.variable}`}>
-      <body>{children}</body>
+      <body>
+        <JsonLd data={localBusinessJsonLd()} />
+        {children}
+      </body>
     </html>
   );
 }

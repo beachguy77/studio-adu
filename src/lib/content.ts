@@ -1,95 +1,45 @@
-function phoneToTelHref(phone: string): string {
-  const digits = phone.replace(/\D/g, "");
-  if (digits.length === 10) return `tel:+1${digits}`;
-  if (digits.length === 11 && digits.startsWith("1")) return `tel:+${digits}`;
-  return digits ? `tel:+${digits}` : "#";
-}
-
-const phone = process.env.NEXT_PUBLIC_CONTACT_PHONE ?? "";
-const email = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "";
-
-export const siteConfig = {
-  name: "Studio IA",
-  phone,
-  phoneHref: phoneToTelHref(phone),
-  email,
-  emailHref: email ? `mailto:${email}` : "#",
-  serviceArea: "Santa Barbara County, CA",
-  description:
-    "Studio IA — Full-service ADU design and construction in Santa Barbara County. From consultation to completion, or pick the services you need — with a human touch at every step.",
-};
-
-export const navLinks = [
-  { href: "#services", label: "Services" },
-  { href: "#portfolio", label: "Portfolio" },
-  { href: "#process", label: "Process" },
-  { href: "#about", label: "About" },
-  { href: "#contact", label: "Contact", cta: true },
-] as const;
-
-export const services = [
+export const servicesPreview = [
   {
     step: "01",
     title: "Consultation",
     description:
       "Site feasibility, zoning review, and budget guidance to see if an ADU is right for your property.",
+    href: "/contact",
   },
   {
     step: "02",
-    title: "Design",
+    title: "ADU Design",
     description:
       "Custom floor plans, elevations, and material selections tailored to your lot and lifestyle.",
+    href: "/services/adu-design",
   },
   {
     step: "03",
     title: "Architectural drawings",
     description:
       "Permit-ready plan sets prepared to meet Santa Barbara County requirements.",
+    href: "/services/adu-design",
   },
   {
     step: "04",
-    title: "Plan submission",
+    title: "Permitting",
     description:
-      "We handle submittals, revisions, and coordination with county planners on your behalf.",
+      "Submittals, revisions, and coordination with city and county planners on your behalf.",
+    href: "/services/permitting",
   },
   {
     step: "05",
     title: "Construction",
     description:
       "Quality build management from foundation to framing, finishes, and systems.",
+    href: "/services/adu-construction",
   },
   {
     step: "06",
     title: "Completion",
     description:
       "Final inspections, certificate of occupancy, and a smooth handoff when your ADU is ready.",
-  },
-] as const;
-
-export const projects = [
-  {
-    location: "Goleta · Full build",
-    title: "Coastal cottage ADU",
-    description:
-      "650 sq ft detached unit with open living, full kitchen, and private patio.",
-    image:
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
-  },
-  {
-    location: "Santa Barbara · Design & permits",
-    title: "Hillside studio ADU",
-    description:
-      "Custom design and county plan submission for a compact backyard studio.",
-    image:
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
-  },
-  {
-    location: "Carpinteria · Design only",
-    title: "Garden guest suite",
-    description:
-      "Architectural drawings and design package for a client-managed build.",
-    image:
-      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cd2e?w=800&q=80",
+    href: "/services/design-build",
   },
 ] as const;
 
@@ -122,5 +72,11 @@ export const aboutStats = [
   { value: "À la carte", label: "Pick your services" },
 ] as const;
 
+export const testimonial = {
+  quote:
+    "Studio IA walked us through permits and design with patience and clarity. It felt personal the whole way — not like a contractor handoff.",
+  attribution: "Homeowners, Santa Barbara",
+};
+
 export const heroImage =
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80";
+  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1800&q=80";

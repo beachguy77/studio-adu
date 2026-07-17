@@ -1,6 +1,6 @@
 # Studio IA
 
-Portfolio site for ADU design and construction services in Santa Barbara County.
+Premium ADU design and construction site for Santa Barbara County.
 
 Built with **Next.js** (App Router) and **React**.
 
@@ -18,29 +18,20 @@ Open [http://localhost:3000](http://localhost:3000).
 
 | Variable | Description |
 |----------|-------------|
-| `NEXT_PUBLIC_CONTACT_PHONE` | Display phone number (e.g. `(805) 555-0123`) |
-| `NEXT_PUBLIC_CONTACT_EMAIL` | Contact email address |
+| `NEXT_PUBLIC_SITE_URL` | Canonical site URL (no trailing slash) |
+| `NEXT_PUBLIC_CONTACT_PHONE` | Display phone number |
+| `NEXT_PUBLIC_CONTACT_EMAIL` | Contact email |
 
-Copy `.env.example` to `.env.local` for local development. Set the same values in your host (e.g. Vercel) for production.
+## Site map
 
-## Scripts
-
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start the development server |
-| `npm run build` | Create a production build |
-| `npm start` | Run the production server |
-| `npm run lint` | Run ESLint |
+- `/` — Home
+- `/services` + `/services/[slug]` — ADU service pages
+- `/areas` + `/areas/[slug]` — Local landing pages
+- `/work` + `/work/[slug]` — Case studies
+- `/about` — Studio & founder
+- `/contact` — Consultation
+- `/sitemap.xml`, `/robots.txt`
 
 ## Deploy
 
-Push to GitHub and connect to [Vercel](https://vercel.com) (recommended for Next.js), Netlify, or Cloudflare Pages.
-
-## Contact form
-
-The contact form is a client-side placeholder. When deploying, wire it to Formspree or a Next.js Server Action.
-
-## Content to replace
-
-- Phone and email via `.env.local` / deploy env vars (see above)
-- Portfolio project photos and copy in `src/lib/content.ts`
+Set the same env vars on Railway/Vercel. Point `NEXT_PUBLIC_SITE_URL` to your live domain after DNS is live.
