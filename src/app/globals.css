@@ -10,8 +10,8 @@
   --color-border: #ddd6cb;
   --color-hero-overlay: rgba(28, 26, 23, 0.55);
 
-  --font-display: "Playfair Display", Georgia, serif;
-  --font-body: "DM Sans", system-ui, sans-serif;
+  --font-display: var(--font-playfair), Georgia, serif;
+  --font-body: var(--font-dm-sans), system-ui, sans-serif;
 
   --radius: 12px;
   --radius-lg: 20px;
@@ -158,9 +158,17 @@ a:hover {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(var(--color-hero-overlay), var(--color-hero-overlay)),
-    url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80") center / cover no-repeat;
+  background-color: #1c1a17;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--color-hero-overlay);
 }
 
 .hero-content {
@@ -342,21 +350,8 @@ a:hover {
 }
 
 .project-image {
+  position: relative;
   height: 220px;
-  background-size: cover;
-  background-position: center;
-}
-
-.project-image-1 {
-  background-image: url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80");
-}
-
-.project-image-2 {
-  background-image: url("https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80");
-}
-
-.project-image-3 {
-  background-image: url("https://images.unsplash.com/photo-1600047509807-ba8f99d2cd2e?w=800&q=80");
 }
 
 .project-body {
