@@ -1,10 +1,28 @@
 # Studio IA
 
-Premium ADU design and construction site for Santa Barbara County.
+## Vision
+Studio IA is a premium ADU Design + Construction company based in Santa Barbara, California.
+
+## Current Priorities
+1. Build the best ADU website in Santa Barbara.
+2. Rank #1 locally for ADU-related searches.
+3. Deliver an exceptional client experience.
+4. Build a portfolio of architecturally beautiful projects.
+5. Develop systems that scale as the company grows.
+
+## Guiding Principle
+Design first. Build second. Trust always.
+
+## Company docs
+- [BRAND.md](./BRAND.md)
+- [WEBSITE.md](./WEBSITE.md)
+- [OPERATIONS.md](./OPERATIONS.md)
+- [TODO.md](./TODO.md)
+- [AGENTS.md](./AGENTS.md)
+
+## Development
 
 Built with **Next.js** (App Router) and **React**.
-
-## Getting started
 
 ```bash
 cp .env.example .env.local
@@ -14,7 +32,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Environment variables
+### Environment variables
 
 | Variable | Description |
 |----------|-------------|
@@ -22,7 +40,7 @@ Open [http://localhost:3000](http://localhost:3000).
 | `NEXT_PUBLIC_CONTACT_PHONE` | Display phone number |
 | `NEXT_PUBLIC_CONTACT_EMAIL` | Contact email |
 
-## Site map
+### Site map
 
 - `/` — Home
 - `/services` + `/services/[slug]` — ADU service pages
@@ -32,6 +50,6 @@ Open [http://localhost:3000](http://localhost:3000).
 - `/contact` — Consultation
 - `/sitemap.xml`, `/robots.txt`
 
-## Deploy
+### Deploy
 
 Set the same env vars on Railway/Vercel. Point `NEXT_PUBLIC_SITE_URL` to your live domain after DNS is live.
