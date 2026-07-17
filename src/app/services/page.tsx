@@ -9,7 +9,7 @@ import { createPageMetadata } from "@/lib/seo";
 export const metadata: Metadata = createPageMetadata({
   title: "ADU Services",
   description:
-    "Studio IA ADU services: design, construction, garage conversion, design-build, and permitting across Santa Barbara County.",
+    "Studio IA ADU services: design coordination, construction coordination, garage conversion, full journey, and permit coordination across Santa Barbara County.",
   path: "/services",
 });
 
@@ -19,7 +19,7 @@ export default function ServicesIndexPage() {
       <PageHero
         eyebrow="Services"
         title="ADU services, vertically offered"
-        lead="Choose the full journey or a single phase — design, permitting, construction, conversions, or design-build."
+        lead="Choose the full journey or a single phase — feasibility, design coordination, permit coordination, and construction coordination."
         breadcrumbs={[
           { name: "Home", href: "/" },
           { name: "Services" },

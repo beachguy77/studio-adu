@@ -34,7 +34,7 @@ export const projects: Project[] = [
       "We oriented the cottage for light and privacy, kept the footprint efficient, and coordinated permitting and construction as a continuous design-build path.",
     outcome:
       "A warm, independent living space that feels connected to the garden and finished with durable, calm materials.",
-    services: ["Design-Build", "ADU Design", "ADU Construction", "Permitting"],
+    services: ["Full Journey", "ADU Design", "Construction Coordination", "Permit Coordination"],
     stats: [
       { label: "Size", value: "650 sq ft" },
       { label: "Type", value: "Detached ADU" },
@@ -62,7 +62,7 @@ export const projects: Project[] = [
       "We developed a efficient studio plan, refined elevations for the hillside context, and managed permitting documentation for submission.",
     outcome:
       "A permit-oriented design package ready for the homeowners’ construction path — calm, compact, and site-specific.",
-    services: ["ADU Design", "Permitting"],
+    services: ["ADU Design", "Permit Coordination"],
     stats: [
       { label: "Type", value: "Studio ADU" },
       { label: "Scope", value: "Design & permits" },

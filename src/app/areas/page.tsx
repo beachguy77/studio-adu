@@ -9,7 +9,7 @@ import { createPageMetadata } from "@/lib/seo";
 export const metadata: Metadata = createPageMetadata({
   title: "ADU Service Areas",
   description:
-    "Studio IA serves Santa Barbara, Montecito, Goleta, Carpinteria, Summerland, and Ventura with ADU design and construction.",
+    "Studio IA serves Santa Barbara, Montecito, Goleta, Carpinteria, Summerland, and Ventura with ADU design and project management.",
   path: "/areas",
 });
 
@@ -18,8 +18,8 @@ export default function AreasIndexPage() {
     <SiteShell>
       <PageHero
         eyebrow="Areas"
-        title="Where we design and build ADUs"
-        lead="Local pages for the South Coast communities we serve — each with guidance tailored to place."
+        title="Where we coordinate ADUs"
+        lead="Local pages for the South Coast communities we serve — each with design-led guidance and Santa Barbara expertise."
         breadcrumbs={[{ name: "Home", href: "/" }, { name: "Areas" }]}
       />
 

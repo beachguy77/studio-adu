@@ -10,17 +10,15 @@ export default function About() {
         <Reveal>
           <div className="about-content">
             <p className="eyebrow">About Studio IA</p>
-            <h2>Local ADU expertise with a human touch</h2>
+            <h2>Building an ADU shouldn&apos;t require coordinating multiple firms</h2>
             <p>
-              Studio IA is a Santa Barbara County–focused design and build team
-              led by {siteConfig.founder.name}. We understand local zoning,
-              coastal considerations, and permitting — so you can focus on the
-              result, not the paperwork.
+              Studio IA simplifies the process by bringing together experienced
+              architects, engineers, consultants, and licensed builders into one
+              coordinated experience — led by {siteConfig.founder.name} in
+              Santa Barbara County.
             </p>
             <p>
-              Whether you need a full-service partner or help with a single
-              phase, we meet you where you are and guide the project forward
-              with clarity and care.{" "}
+              You get one conversation and one trusted team.{" "}
               <Link href="/about">Meet the founder</Link> or explore{" "}
               <Link href="/areas/santa-barbara">Santa Barbara ADU services</Link>.
             </p>

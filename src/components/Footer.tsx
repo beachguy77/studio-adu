@@ -10,7 +10,7 @@ export default function Footer() {
             Studio <span>IA</span>
           </p>
           <p className="footer-meta">
-            ADU design &amp; construction · {siteConfig.serviceArea}
+            ADU design &amp; project coordination · {siteConfig.serviceArea}
           </p>
           <p className="footer-meta">License # pending</p>
           <p className="footer-meta">

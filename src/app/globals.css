@@ -288,9 +288,9 @@ a:hover {
 
 .hero h1 {
   font-family: var(--font-body);
-  font-size: clamp(1.15rem, 2.2vw, 1.45rem);
+  font-size: clamp(1.35rem, 2.6vw, 1.85rem);
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.35;
   letter-spacing: 0.01em;
   margin: 0 0 1rem;
   color: rgba(255, 255, 255, 0.92);
@@ -301,9 +301,20 @@ a:hover {
   font-size: 1.05rem;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.78);
-  margin: 0 0 2rem;
+  margin: 0 0 1rem;
   max-width: 36rem;
   animation: hero-rise 1s var(--ease-out) 0.22s both;
+}
+
+.hero-promise {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.92);
+  margin: 0 0 2rem;
+  max-width: 36rem;
+  animation: hero-rise 1s var(--ease-out) 0.28s both;
 }
 
 .hero-actions {
@@ -820,6 +831,76 @@ a:hover {
   justify-content: space-between;
   gap: 0.75rem;
   padding-top: 1.5rem;
+}
+
+/* Why Studio IA */
+.why-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.why-col {
+  padding: 1.75rem 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.why-col-accent {
+  border-top-color: var(--color-accent);
+}
+
+.why-label {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-stone);
+  margin: 0 0 1.25rem;
+}
+
+.why-col-accent .why-label {
+  color: var(--color-accent);
+}
+
+.why-steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.85rem;
+  counter-reset: why;
+}
+
+.why-steps li {
+  position: relative;
+  padding-left: 2.5rem;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  counter-increment: why;
+}
+
+.why-steps li::before {
+  content: counter(why, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 0.2rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--color-stone);
+}
+
+.why-col-accent .why-steps li::before {
+  color: var(--color-accent);
+}
+
+@media (max-width: 900px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Sections */

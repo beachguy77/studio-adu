@@ -91,10 +91,10 @@ export function localBusinessJsonLd() {
     knowsAbout: [
       "Accessory Dwelling Units",
       "ADU Design",
-      "ADU Construction",
+      "ADU Project Management",
+      "Permit Coordination",
       "Garage Conversion",
-      "Design-Build",
-      "Building Permits",
+      "Design Coordination",
     ],
     ...(siteConfig.social.sameAs.length
       ? { sameAs: siteConfig.social.sameAs }

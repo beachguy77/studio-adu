@@ -11,7 +11,7 @@ import { createPageMetadata, personJsonLd } from "@/lib/seo";
 export const metadata: Metadata = createPageMetadata({
   title: "About Imogen Adams Reyes & Studio IA",
   description:
-    "Meet Imogen Adams Reyes, founder of Studio IA — premium ADU design and construction with a human touch across Santa Barbara County.",
+    "Meet Imogen Adams Reyes and Studio IA — a Santa Barbara ADU design and project management studio offering one coordinated path from feasibility through delivery.",
   path: "/about",
 });
 
@@ -22,8 +22,8 @@ export default function AboutPage() {
 
       <PageHero
         eyebrow="About"
-        title="A human-centered ADU studio"
-        lead="Studio IA was founded to make ADU design and construction feel clear, calm, and personal — without losing architectural rigor."
+        title="A design studio that coordinates delivery"
+        lead="Studio IA was founded so homeowners don’t have to manage an architect, engineer, and contractor alone — one trusted team, one carefully managed experience."
         breadcrumbs={[{ name: "Home", href: "/" }, { name: "About" }]}
       />
 
@@ -32,28 +32,32 @@ export default function AboutPage() {
           <div className="prose">
             <h2>Our approach</h2>
             <p>
-              Accessory dwelling units ask homeowners to navigate design, code,
-              budget, and family needs at once. Studio IA exists to hold that
-              complexity with care — explaining options plainly, designing for
-              how people actually live, and stewarding projects through
-              Santa Barbara County realities.
+              Building an ADU shouldn&apos;t require coordinating multiple
+              firms. Studio IA brings together experienced architects,
+              engineers, consultants, and licensed builders into one
+              coordinated experience.
             </p>
             <p>
-              We work vertically:{" "}
+              We guide{" "}
               <Link href="/services/adu-design">design</Link>,{" "}
-              <Link href="/services/permitting">permitting</Link>,{" "}
-              <Link href="/services/adu-construction">construction</Link>, or a
-              full <Link href="/services/design-build">design-build</Link> path.
-              You choose the depth of engagement; we keep the standard of care.
+              <Link href="/services/permitting">permit coordination</Link>, and{" "}
+              <Link href="/services/adu-construction">
+                construction coordination
+              </Link>
+              — or a full{" "}
+              <Link href="/services/design-build">journey</Link> from
+              feasibility through delivery. You choose the depth of engagement;
+              we keep the standard of care.
             </p>
 
             <h2>{siteConfig.founder.name}</h2>
             <p className="founder-role">{siteConfig.founder.role}</p>
             <p>{siteConfig.founder.bio}</p>
             <p>
-              Credentials and license details will be published here as they are
-              finalized. For now, reach out directly — we are happy to share
-              process, references, and project documentation.
+              We collaborate with licensed California architects whenever
+              architectural services are required. Construction is performed by
+              licensed California contractors according to each client
+              agreement.
             </p>
 
             <h2>What clients notice</h2>
@@ -68,7 +72,10 @@ export default function AboutPage() {
             <ul className="side-steps">
               <li>
                 <strong>Based in</strong>
-                <span>{siteConfig.address.addressLocality}, {siteConfig.address.addressRegion}</span>
+                <span>
+                  {siteConfig.address.addressLocality},{" "}
+                  {siteConfig.address.addressRegion}
+                </span>
               </li>
               <li>
                 <strong>Serves</strong>
@@ -76,11 +83,15 @@ export default function AboutPage() {
               </li>
               <li>
                 <strong>Focus</strong>
-                <span>ADU design, permitting, and construction</span>
+                <span>Design &amp; project coordination for ADUs</span>
+              </li>
+              <li>
+                <strong>Promise</strong>
+                <span>{siteConfig.promise}</span>
               </li>
             </ul>
             <Link href="/contact" className="btn btn-primary btn-full">
-              Contact Studio IA
+              Schedule a consultation
             </Link>
             <Link href="/work" className="text-link">
               View projects

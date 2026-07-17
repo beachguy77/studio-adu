@@ -27,9 +27,9 @@ export default function ContactForm({
             <p className="eyebrow">Get in touch</p>
             <h2>{heading}</h2>
             <p>
-              Reach out for a free initial consultation. We&apos;ll discuss your
-              property, timeline, and which services fit your needs across
-              Santa Barbara County.
+              Schedule a consultation. We&apos;ll discuss your property,
+              timeline, and which coordinated services fit — with one point of
+              contact across Santa Barbara County.
             </p>
 
             <ul className="contact-details">

@@ -19,14 +19,14 @@ export const locations: LocationPage[] = [
     slug: "santa-barbara",
     name: "Santa Barbara",
     regionLabel: "City of Santa Barbara & surrounds",
-    metaTitle: "ADU Design & Construction Santa Barbara | Studio IA",
+    metaTitle: "Santa Barbara ADU Design & Project Management | Studio IA",
     metaDescription:
-      "Studio IA designs and builds ADUs in Santa Barbara — design, permitting, garage conversions, and construction with a human touch.",
-    title: "ADU design & construction in Santa Barbara",
-    lead: "From Riviera hillsides to the Westside, we help Santa Barbara homeowners add thoughtful accessory dwelling units that respect neighborhood character and local process.",
+      "Studio IA is Santa Barbara’s premium ADU design and project management studio — one point of contact for design, permitting, and construction coordination.",
+    title: "Santa Barbara ADU design & project management",
+    lead: "Thoughtful accessory dwelling units for Santa Barbara homeowners — guided by one trusted team from feasibility through a carefully coordinated delivery.",
     overview: [
       "Santa Barbara ADU projects often navigate compact lots, historic context, parking considerations, and a permitting path that rewards clear, complete drawings. Studio IA brings design judgment and local process fluency together.",
-      "Whether you want a garden studio, a rental unit, or space for family, we offer design, permitting support, construction, or a full design-build journey.",
+      "Whether you want a garden studio, a rental unit, or space for family, we coordinate design, permitting, and licensed builders — or the phases you need — without asking you to manage every firm yourself.",
     ],
     localNotes: [
       "City vs. county jurisdiction can change requirements — we confirm early.",
@@ -35,14 +35,14 @@ export const locations: LocationPage[] = [
     ],
     faqs: [
       {
-        question: "Do you build ADUs in the City of Santa Barbara?",
+        question: "Do you offer ADU project management in Santa Barbara?",
         answer:
-          "Yes. We provide ADU design, permitting support, and construction services for Santa Barbara homeowners, including à la carte and design-build paths.",
+          "Yes. Studio IA provides design coordination, permit coordination, and construction coordination with licensed professionals for Santa Barbara homeowners.",
       },
       {
         question: "Can Studio IA help with Santa Barbara ADU permits?",
         answer:
-          "Yes. We prepare and manage plan submissions and revisions so you are not left translating plan-check comments alone.",
+          "Yes. We coordinate plan submissions and revisions so you are not left translating plan-check comments alone.",
       },
     ],
     nearby: ["montecito", "goleta", "summerland", "carpinteria"],
@@ -51,19 +51,19 @@ export const locations: LocationPage[] = [
     slug: "montecito",
     name: "Montecito",
     regionLabel: "Montecito",
-    metaTitle: "ADU Design Montecito | Studio IA",
+    metaTitle: "Montecito ADU Design | Studio IA",
     metaDescription:
-      "Premium ADU design and construction for Montecito properties — discreet, site-sensitive studios and guest suites by Studio IA.",
-    title: "ADUs for Montecito properties",
+      "Premium Montecito ADU design and project coordination — discreet, site-sensitive guest suites and studios with one point of contact.",
+    title: "Montecito ADU design & coordination",
     lead: "Discreet, site-sensitive ADUs that complement estate landscapes, privacy, and architecture — designed with care for how the land already speaks.",
     overview: [
       "Montecito projects ask for restraint and craft: privacy, topography, vegetation, and architectural continuity matter as much as square footage.",
-      "Studio IA focuses on human-scale guest suites and studios that feel intentional within the larger property composition.",
+      "Studio IA focuses on human-scale guest suites and studios, coordinating licensed professionals into one premium homeowner experience.",
     ],
     localNotes: [
       "Site access, grading, and vegetation often shape feasibility.",
       "Privacy and neighbor adjacency deserve early design attention.",
-      "High-finish material selections can be coordinated through design-build.",
+      "High-finish material selections can be coordinated through the full journey.",
     ],
     faqs: [
       {
@@ -78,14 +78,14 @@ export const locations: LocationPage[] = [
     slug: "goleta",
     name: "Goleta",
     regionLabel: "Goleta",
-    metaTitle: "ADU Construction Goleta | Studio IA",
+    metaTitle: "Goleta ADU Design & Project Management | Studio IA",
     metaDescription:
-      "ADU design, permitting, and construction in Goleta — detached units, garage conversions, and design-build by Studio IA.",
-    title: "ADU services in Goleta",
+      "Goleta ADU design, permit coordination, and construction coordination — detached units, garage conversions, and full-journey project management by Studio IA.",
+    title: "Goleta ADU services",
     lead: "Practical, well-crafted ADUs for Goleta homeowners — from backyard cottages to garage conversions — guided through design and local permitting.",
     overview: [
       "Goleta’s mix of neighborhoods and lot types makes ADUs a strong fit for multigenerational living and flexible income. We help clarify what your lot supports before drawings deepen.",
-      "Engage us for design only, permitting, construction, or the full path.",
+      "Engage us for design coordination, permitting, construction coordination, or the full path.",
     ],
     localNotes: [
       "Confirm city requirements early for smoother plan check.",
@@ -96,7 +96,7 @@ export const locations: LocationPage[] = [
       {
         question: "Do you handle Goleta ADU permits?",
         answer:
-          "Yes. We support plan preparation, submission, and responses for Goleta ADU projects.",
+          "Yes. We coordinate plan preparation, submission, and responses for Goleta ADU projects.",
       },
     ],
     nearby: ["santa-barbara", "carpinteria", "ventura"],
@@ -105,14 +105,14 @@ export const locations: LocationPage[] = [
     slug: "carpinteria",
     name: "Carpinteria",
     regionLabel: "Carpinteria",
-    metaTitle: "ADU Design & Build Carpinteria | Studio IA",
+    metaTitle: "Carpinteria ADU Design | Studio IA",
     metaDescription:
-      "ADU design and construction in Carpinteria — coastal-conscious planning, permitting support, and human-centered design-build.",
-    title: "ADUs in Carpinteria",
+      "Carpinteria ADU design and project coordination — coastal-conscious planning, permit support, and a single trusted point of contact.",
+    title: "Carpinteria ADU design & coordination",
     lead: "Coastal community ADUs designed for light, outdoor living, and a calm permitting path — with Studio IA’s full or à la carte services.",
     overview: [
       "Carpinteria projects benefit from clear early feasibility: coastal influences, lot coverage, and neighborhood scale all inform the right ADU type.",
-      "We keep the process human — explaining options without pressure.",
+      "We keep the process human — explaining options without pressure — while coordinating licensed partners as needed.",
     ],
     localNotes: [
       "Coastal and local guidelines may shape materials and siting.",
@@ -121,9 +121,9 @@ export const locations: LocationPage[] = [
     ],
     faqs: [
       {
-        question: "Can Studio IA manage a Carpinteria ADU from design to build?",
+        question: "Can Studio IA coordinate a Carpinteria ADU from design through delivery?",
         answer:
-          "Yes. Our design-build path covers design, permitting coordination, and construction, or you can hire for individual phases.",
+          "Yes. Our full journey covers design coordination, permitting, and construction coordination with licensed contractors — or you can engage individual phases.",
       },
     ],
     nearby: ["summerland", "montecito", "santa-barbara", "ventura"],
@@ -132,10 +132,10 @@ export const locations: LocationPage[] = [
     slug: "summerland",
     name: "Summerland",
     regionLabel: "Summerland",
-    metaTitle: "ADU Builder Summerland | Studio IA",
+    metaTitle: "Summerland ADU Design | Studio IA",
     metaDescription:
-      "Studio IA provides ADU design, permitting, and construction support for Summerland homeowners seeking thoughtful backyard units.",
-    title: "ADU design & construction in Summerland",
+      "Studio IA provides ADU design and project coordination for Summerland homeowners seeking thoughtful backyard units.",
+    title: "Summerland ADU design & coordination",
     lead: "Small-community projects deserve careful scale. We design ADUs that feel native to Summerland’s coastal character.",
     overview: [
       "Summerland lots often reward compact, well-proportioned ADUs. We prioritize siting, light, and neighborly presence.",
@@ -144,7 +144,7 @@ export const locations: LocationPage[] = [
     localNotes: [
       "Scale and street presence matter in a small coastal community.",
       "Confirm jurisdiction and coastal considerations early.",
-      "Design-build keeps detailing consistent through construction.",
+      "A coordinated journey keeps detailing consistent through delivery.",
     ],
     faqs: [
       {
@@ -159,14 +159,14 @@ export const locations: LocationPage[] = [
     slug: "ventura",
     name: "Ventura",
     regionLabel: "Ventura",
-    metaTitle: "ADU Design Ventura | Studio IA",
+    metaTitle: "Ventura ADU Design | Studio IA",
     metaDescription:
-      "ADU design and construction support in Ventura — Studio IA brings Santa Barbara County expertise to nearby Ventura projects.",
-    title: "ADU services in Ventura",
-    lead: "Nearby Ventura homeowners can work with Studio IA for ADU design, permitting coordination, and construction — with the same human-centered process.",
+      "ADU design and project coordination in Ventura — Studio IA brings Santa Barbara County expertise to nearby Ventura projects.",
+    title: "Ventura ADU services",
+    lead: "Nearby Ventura homeowners can work with Studio IA for ADU design, permit coordination, and construction coordination — with the same human-centered process.",
     overview: [
-      "Ventura’s neighborhoods offer strong ADU potential for family and rental uses. We clarify feasibility, then design for how you will actually use the space.",
-      "Ask us about design-only or full design-build engagements.",
+      "Ventura’s neighborhoods offer strong ADU potential for family and rental uses. We clarify feasibility, then shape a design-led path for how you will actually use the space.",
+      "Ask us about design-only or full-journey engagements.",
     ],
     localNotes: [
       "Local permitting rules differ from Santa Barbara County — we plan accordingly.",
@@ -177,7 +177,7 @@ export const locations: LocationPage[] = [
       {
         question: "Do you take ADU projects in Ventura?",
         answer:
-          "Yes. Ventura is within our service area for ADU design, permitting support, and construction services.",
+          "Yes. Ventura is within our service area for ADU design, permitting support, and construction coordination.",
       },
     ],
     nearby: ["carpinteria", "goleta", "santa-barbara"],

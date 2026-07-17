@@ -1,7 +1,7 @@
 # Studio IA
 
 ## Vision
-Studio IA is a premium ADU Design + Construction company based in Santa Barbara, California.
+Studio IA is a premium ADU design and project management studio based in Santa Barbara, California.
 
 ## Current Priorities
 1. Build the best ADU website in Santa Barbara.
@@ -15,10 +15,13 @@ Design first. Build second. Trust always.
 
 ## Company docs
 - [BRAND.md](./BRAND.md)
+- [MESSAGING.md](./MESSAGING.md)
+- [BUSINESS_MODEL.md](./BUSINESS_MODEL.md)
 - [WEBSITE.md](./WEBSITE.md)
 - [OPERATIONS.md](./OPERATIONS.md)
 - [TODO.md](./TODO.md)
 - [AGENTS.md](./AGENTS.md)
+- [CURSOR_WEBSITE_REWRITE_PROMPT.md](./CURSOR_WEBSITE_REWRITE_PROMPT.md)
 
 ## Development
 
@@ -44,9 +47,11 @@ Open [http://localhost:3000](http://localhost:3000).
 
 - `/` — Home
 - `/services` + `/services/[slug]` — ADU service pages
+- `/process` — Design. Coordinate. Deliver.
 - `/areas` + `/areas/[slug]` — Local landing pages
 - `/work` + `/work/[slug]` — Case studies
 - `/about` — Studio & founder
+- `/faq` — Homeowner FAQ
 - `/contact` — Consultation
 - `/sitemap.xml`, `/robots.txt`
 

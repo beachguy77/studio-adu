@@ -5,29 +5,34 @@ export type FaqItem = {
 
 export const homeFaqs: FaqItem[] = [
   {
+    question: "Are you architects?",
+    answer:
+      "We collaborate with licensed California architects whenever architectural services are required.",
+  },
+  {
+    question: "Do you build ADUs?",
+    answer:
+      "Construction is performed by licensed California contractors. Studio IA coordinates the project according to the services defined in each client agreement.",
+  },
+  {
     question: "How much does an ADU cost in Santa Barbara County?",
     answer:
-      "Costs vary by size, site conditions, finishes, and whether you need design only or full construction. Many Santa Barbara County projects fall into a broad range depending on detached vs. conversion, utilities, and coastal or hillside constraints. Studio IA starts with a feasibility conversation so you understand budget drivers before committing to drawings.",
+      "Costs vary by size, site conditions, finishes, and scope. We begin with a feasibility conversation so you understand budget drivers before committing to a full design path.",
   },
   {
     question: "How long does ADU permitting take in Santa Barbara?",
     answer:
-      "Timelines depend on jurisdiction (City of Santa Barbara, County, Goleta, Carpinteria, and others), project complexity, and revision cycles. Straightforward projects can move faster; hillside, coastal, or constrained lots may take longer. We manage submittals and responses so you are not navigating the process alone.",
+      "Timelines depend on jurisdiction, project complexity, and revision cycles. We coordinate submittals and responses so you are not navigating plan check alone.",
   },
   {
-    question: "Do I need a designer and a contractor separately?",
+    question: "Do I need to hire and manage every consultant myself?",
     answer:
-      "Not necessarily. Studio IA offers à la carte design, permitting support, construction, or a full design-build path. If you already have a builder or only need drawings, we can meet you where you are.",
-  },
-  {
-    question: "Can you convert a garage into an ADU?",
-    answer:
-      "Yes. Garage conversions are a common path when lot coverage, setbacks, or budget favor reusing existing structure. We assess structural, utility, egress, and parking implications early so the design is permit-ready.",
+      "No. Studio IA is built to be one point of contact — coordinating architects, engineers, consultants, and licensed builders into one managed experience.",
   },
   {
     question: "Which cities does Studio IA serve?",
     answer:
-      "We serve Santa Barbara, Montecito, Goleta, Carpinteria, Summerland, Ventura, and surrounding Santa Barbara County communities.",
+      "We serve Santa Barbara, Montecito, Goleta, Carpinteria, Summerland, Ventura, and surrounding communities.",
   },
 ];
 
@@ -35,63 +40,63 @@ export const designFaqs: FaqItem[] = [
   {
     question: "What is included in ADU design services?",
     answer:
-      "Typically site assessment, concept development, floor plans, elevations, and coordination toward permit-ready drawings. Scope can be tailored if you only need early concepts or a full architectural package.",
+      "Feasibility guidance, concept development, and design coordination toward permit-ready drawings — collaborating with licensed architects when architectural services are required.",
   },
   {
     question: "Will my ADU design work with Santa Barbara zoning?",
     answer:
-      "We design with local zoning, setbacks, height limits, parking rules, and coastal considerations in mind — so drawings are grounded in what your lot can support.",
+      "We shape the design path around local zoning, setbacks, height limits, parking rules, and coastal considerations so the project is grounded in what your lot can support.",
   },
 ];
 
 export const constructionFaqs: FaqItem[] = [
   {
-    question: "Do you handle construction management for ADUs?",
+    question: "Do you build the ADU yourselves?",
     answer:
-      "Yes. We can manage build quality from foundation through finishes, coordinating trades and inspections with clear communication throughout.",
+      "Construction is performed by licensed California contractors. Studio IA coordinates the build according to the services in your agreement — keeping communication clear and the process coherent.",
   },
   {
-    question: "Can Studio IA build from plans by another designer?",
+    question: "Can Studio IA coordinate construction from another designer’s plans?",
     answer:
-      "Often yes, after a constructability review. We will confirm whether drawings are buildable and permit-aligned before estimating.",
+      "Often yes, after a readiness review. We confirm whether drawings are coordinated and permit-aligned before construction coordination begins.",
   },
 ];
 
 export const garageFaqs: FaqItem[] = [
   {
-    question: "Is a garage conversion faster than a new detached ADU?",
+    question: "Is a garage conversion simpler than a detached ADU?",
     answer:
-      "It can be, because structure and utilities may already exist — but structural upgrades, insulation, egress, and parking replacement can still affect timeline and cost.",
+      "It can be, because structure and utilities may already exist — but structural upgrades, egress, insulation, and parking replacement still require careful coordination.",
   },
   {
     question: "Will I lose parking if I convert my garage?",
     answer:
-      "Parking replacement rules vary by jurisdiction. We review requirements early so parking, driveway, and site circulation are part of the design solution.",
+      "Parking replacement rules vary by jurisdiction. We review requirements early so parking and site circulation are part of the design solution.",
   },
 ];
 
 export const designBuildFaqs: FaqItem[] = [
   {
-    question: "What is ADU design-build?",
+    question: "What does a full Studio IA journey include?",
     answer:
-      "Design-build means one team guides design, permitting, and construction under a coordinated process — fewer handoffs, clearer accountability, and decisions informed by buildability from day one.",
+      "One coordinated path from feasibility and design through permitting and construction coordination — fewer handoffs, clearer accountability, and decisions informed by delivery from day one.",
   },
   {
-    question: "Is design-build more expensive?",
+    question: "Is a coordinated process more expensive?",
     answer:
-      "Not necessarily. A coordinated path can reduce redesign, change orders, and delay costs. We discuss scope and fee structure transparently at the start.",
+      "Not necessarily. A single managed path can reduce redesign, delay, and miscommunication. We discuss scope and fees transparently at the start.",
   },
 ];
 
 export const permittingFaqs: FaqItem[] = [
   {
-    question: "Can you submit ADU plans to Santa Barbara County for me?",
+    question: "Can you coordinate ADU permits in Santa Barbara County?",
     answer:
-      "Yes. We prepare and submit plan sets, track comments, and coordinate revisions with planners and reviewers on your behalf.",
+      "Yes. We coordinate plan packages, submittals, comments, and revisions with city and county reviewers on your behalf.",
   },
   {
     question: "What slows down ADU permits locally?",
     answer:
-      "Incomplete drawings, unresolved zoning conflicts, incomplete responses to plan-check comments, and site constraints (coastal, hillside, utilities) are common delays. Thorough upfront design reduces those loops.",
+      "Incomplete drawings, unresolved zoning conflicts, slow plan-check responses, and site constraints. Thorough upfront coordination reduces those loops.",
   },
 ];

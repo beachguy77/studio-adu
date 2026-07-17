@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function CtaBand({
   title = "Ready to talk about your ADU?",
-  text = "Tell us about your property in Santa Barbara County. We’ll help you choose the right path — design, permits, construction, or the full journey.",
+  text = "Schedule a consultation. We’ll discuss your property, timeline, and the right coordinated path — design, permits, construction coordination, or the full journey.",
   primaryHref = "/contact",
   primaryLabel = "Schedule a consultation",
   secondaryHref = "/services",

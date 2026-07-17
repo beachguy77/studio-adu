@@ -15,7 +15,8 @@ const email = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "hello@studioia.com";
 export const siteConfig = {
   name: "Studio IA",
   legalName: "Studio IA",
-  tagline: "ADU design and construction with a human touch",
+  tagline: "Thoughtful Design. Seamless Delivery.",
+  promise: "One Team. One Process. One Beautiful ADU.",
   phone,
   phoneHref: phoneToTelHref(phone),
   email,
@@ -23,7 +24,7 @@ export const siteConfig = {
   serviceArea: "Santa Barbara County, CA",
   url: siteUrl,
   description:
-    "Studio IA designs and builds accessory dwelling units across Santa Barbara County — from concept and permits to construction — with a human touch at every step.",
+    "Studio IA is a premium ADU design and project management studio in Santa Barbara. One point of contact from feasibility and design through permitting and construction coordination.",
   locale: "en_US",
   address: {
     streetAddress: "",
@@ -47,10 +48,9 @@ export const siteConfig = {
   founder: {
     name: "Imogen Adams Reyes",
     role: "Founder & Principal",
-    bio: "Imogen Adams Reyes founded Studio IA to bring thoughtful, human-centered ADU design and construction to Santa Barbara County. She guides homeowners from first feasibility conversations through permitting and build — with clear communication, local expertise, and care for how each project lives on the land.",
+    bio: "Imogen Adams Reyes founded Studio IA to give Santa Barbara homeowners one trusted point of contact for ADUs — coordinating design, consultants, permitting, and licensed builders into a clear, carefully managed experience.",
   },
   social: {
-    // Add real profiles when available for E-E-A-T / sameAs
     sameAs: [] as string[],
   },
   ogImage:
@@ -59,6 +59,7 @@ export const siteConfig = {
 
 export const navLinks = [
   { href: "/services", label: "Services" },
+  { href: "/process", label: "Process" },
   { href: "/work", label: "Work" },
   { href: "/areas", label: "Areas" },
   { href: "/about", label: "About" },
@@ -68,10 +69,10 @@ export const navLinks = [
 export const footerLinks = {
   services: [
     { href: "/services/adu-design", label: "ADU Design" },
-    { href: "/services/adu-construction", label: "ADU Construction" },
+    { href: "/services/adu-construction", label: "Construction Coordination" },
     { href: "/services/garage-conversion", label: "Garage Conversion" },
-    { href: "/services/design-build", label: "Design-Build" },
-    { href: "/services/permitting", label: "Permitting" },
+    { href: "/services/design-build", label: "Full Journey" },
+    { href: "/services/permitting", label: "Permit Coordination" },
   ],
   areas: [
     { href: "/areas/santa-barbara", label: "Santa Barbara" },
@@ -83,7 +84,9 @@ export const footerLinks = {
   ],
   company: [
     { href: "/about", label: "About" },
+    { href: "/process", label: "Process" },
     { href: "/work", label: "Projects" },
+    { href: "/faq", label: "FAQ" },
     { href: "/contact", label: "Contact" },
   ],
 } as const;

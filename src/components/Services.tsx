@@ -9,13 +9,12 @@ export default function Services() {
         <Reveal>
           <div className="section-header">
             <p className="eyebrow">What we offer</p>
-            <h2>ADU services at every stage</h2>
+            <h2>ADU services, carefully coordinated</h2>
             <p className="section-lead">
-              Engage us for the full journey, or stop at any step —{" "}
-              <Link href="/services/adu-design">design</Link>,{" "}
-              <Link href="/services/permitting">permitting</Link>,{" "}
-              <Link href="/services/adu-construction">construction</Link>, or{" "}
-              <Link href="/services/design-build">design-build</Link>.
+              Property feasibility, design coordination, permit coordination,
+              consultant coordination, and project communication — engage the
+              full journey or the stages you need.{" "}
+              <Link href="/services">View all services</Link>.
             </p>
           </div>
         </Reveal>

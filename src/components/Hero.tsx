@@ -12,11 +12,19 @@ export default function Hero() {
       </div>
       <div className="container hero-content">
         <p className="hero-brand">Studio IA</p>
-        <h1>ADU design &amp; construction in Santa Barbara County</h1>
+        <h1>
+          Thoughtfully designed ADUs.
+          <br />
+          Seamlessly delivered.
+        </h1>
         <p className="hero-lead">
-          From concept and permits to build — or the stages you need — with a
-          human touch across Santa Barbara, Montecito, Goleta, and nearby
-          communities.
+          Studio IA guides homeowners through every stage of the ADU
+          journey—from feasibility and design through permitting and
+          construction coordination.
+        </p>
+        <p className="hero-promise">
+          One point of contact. One trusted team. One beautifully managed
+          experience.
         </p>
         <div className="hero-actions">
           <Link href="/contact" className="btn btn-primary">

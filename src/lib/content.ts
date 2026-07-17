@@ -1,44 +1,44 @@
 export const servicesPreview = [
   {
     step: "01",
-    title: "Consultation",
+    title: "Feasibility",
     description:
-      "Site feasibility, zoning review, and budget guidance to see if an ADU is right for your property.",
+      "Property review, zoning clarity, and budget guidance before you commit to drawings.",
     href: "/contact",
   },
   {
     step: "02",
-    title: "ADU Design",
+    title: "Design coordination",
     description:
-      "Custom floor plans, elevations, and material selections tailored to your lot and lifestyle.",
+      "Thoughtful ADU design developed with licensed architects when architectural services are required.",
     href: "/services/adu-design",
   },
   {
     step: "03",
-    title: "Architectural drawings",
+    title: "Consultant coordination",
     description:
-      "Permit-ready plan sets prepared to meet Santa Barbara County requirements.",
-    href: "/services/adu-design",
+      "Engineers, surveyors, and specialists brought in when the project needs them — without you managing the roster.",
+    href: "/services/design-build",
   },
   {
     step: "04",
-    title: "Permitting",
+    title: "Permit coordination",
     description:
-      "Submittals, revisions, and coordination with city and county planners on your behalf.",
+      "Submittals, revisions, and planner communication handled as one coordinated process.",
     href: "/services/permitting",
   },
   {
     step: "05",
-    title: "Construction",
+    title: "Construction coordination",
     description:
-      "Quality build management from foundation to framing, finishes, and systems.",
+      "Licensed California contractors perform the build. Studio IA coordinates according to your agreement.",
     href: "/services/adu-construction",
   },
   {
     step: "06",
-    title: "Completion",
+    title: "Delivery",
     description:
-      "Final inspections, certificate of occupancy, and a smooth handoff when your ADU is ready.",
+      "Clear communication through completion — one point of contact to the finish.",
     href: "/services/design-build",
   },
 ] as const;
@@ -46,35 +46,50 @@ export const servicesPreview = [
 export const processSteps = [
   {
     title: "Consult",
-    description: "We review your property, goals, and budget.",
+    description: "We listen, assess feasibility, and define the right path.",
   },
   {
     title: "Design",
-    description: "Plans take shape with your input at every step.",
+    description: "Plans take shape with coordinated design partners.",
   },
   {
     title: "Permit",
-    description: "Drawings are submitted and tracked through approval.",
+    description: "Submittals and responses are managed for you.",
   },
   {
     title: "Build",
-    description: "Construction is managed with quality and timeline in mind.",
+    description: "Licensed contractors build; we keep the process coherent.",
   },
   {
-    title: "Move in",
-    description: "Final sign-off and handoff of your finished ADU.",
+    title: "Deliver",
+    description: "Final coordination, handoff, and a finished ADU.",
   },
 ] as const;
 
 export const aboutStats = [
-  { value: "SB County", label: "Service area" },
-  { value: "Start to stop", label: "Full-service option" },
-  { value: "À la carte", label: "Pick your services" },
+  { value: "One team", label: "Single point of contact" },
+  { value: "One process", label: "Coordinated from start to finish" },
+  { value: "One ADU", label: "Thoughtfully designed & delivered" },
 ] as const;
+
+export const whyStudioIA = {
+  traditional: {
+    label: "Traditional",
+    steps: ["Architect", "Engineer", "Contractor", "You manage everyone"],
+  },
+  studio: {
+    label: "Studio IA",
+    steps: [
+      "One conversation",
+      "One coordinated process",
+      "One trusted team",
+    ],
+  },
+} as const;
 
 export const testimonial = {
   quote:
-    "Studio IA walked us through permits and design with patience and clarity. It felt personal the whole way — not like a contractor handoff.",
+    "Studio IA walked us through permits and design with patience and clarity. It felt personal the whole way — not like managing a dozen handoffs.",
   attribution: "Homeowners, Santa Barbara",
 };
 
