@@ -54,7 +54,7 @@ export const siteConfig = {
     sameAs: [] as string[],
   },
   ogImage:
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop&q=80",
+    "https://images.unsplash.com/photo-1600585152915-d208bec867a1?w=1200&h=630&fit=crop&q=80",
 };
 
 export const navLinks = [

@@ -94,4 +94,4 @@ export const testimonial = {
 };
 
 export const heroImage =
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1800&q=80";
+  "https://images.unsplash.com/photo-1600585152915-d208bec867a1?w=1800&q=80";

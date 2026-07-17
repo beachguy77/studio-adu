@@ -41,9 +41,9 @@ export const projects: Project[] = [
       { label: "Path", value: "Design-build" },
     ],
     image:
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=1400&q=80",
     imageAlt:
-      "Bright modern ADU living space with large windows — placeholder for Goleta coastal cottage project",
+      "Living room with polished chrome seating, glass tables, and marble fireplace — placeholder for Goleta coastal cottage",
   },
   {
     slug: "santa-barbara-hillside-studio",
@@ -69,9 +69,9 @@ export const projects: Project[] = [
       { label: "Setting", value: "Hillside" },
     ],
     image:
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1400&q=80",
+      "https://images.unsplash.com/photo-1618220179428-22790b461013?w=1400&q=80",
     imageAlt:
-      "Modern hillside home exterior with clean lines — placeholder for Santa Barbara studio ADU",
+      "Burnt-orange velvet chair with mustard sideboard and sculptural accents — placeholder for Santa Barbara studio ADU",
   },
   {
     slug: "carpinteria-garden-suite",
@@ -97,9 +97,9 @@ export const projects: Project[] = [
       { label: "Setting", value: "Garden lot" },
     ],
     image:
-      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cd2e?w=1400&q=80",
+      "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=1400&q=80",
     imageAlt:
-      "Contemporary home with garden landscape — placeholder for Carpinteria guest suite ADU",
+      "Emerald velvet dining chairs under a sculptural globe chandelier — placeholder for Carpinteria guest suite",
   },
 ];
 

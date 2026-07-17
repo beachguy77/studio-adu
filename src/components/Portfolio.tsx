@@ -12,7 +12,7 @@ export default function Portfolio() {
             <p className="eyebrow">Selected work</p>
             <h2>ADU projects across the county</h2>
             <p className="section-lead">
-              Design-only and full-build examples.{" "}
+              Design coordination and full-journey examples.{" "}
               <Link href="/work">View all projects</Link>.
             </p>
           </div>
