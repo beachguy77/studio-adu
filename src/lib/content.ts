@@ -1,9 +1,19 @@
+function phoneToTelHref(phone: string): string {
+  const digits = phone.replace(/\D/g, "");
+  if (digits.length === 10) return `tel:+1${digits}`;
+  if (digits.length === 11 && digits.startsWith("1")) return `tel:+${digits}`;
+  return digits ? `tel:+${digits}` : "#";
+}
+
+const phone = process.env.NEXT_PUBLIC_CONTACT_PHONE ?? "";
+const email = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "";
+
 export const siteConfig = {
   name: "Studio IA",
-  phone: "(805) 555-0123",
-  phoneHref: "tel:+18055550123",
-  email: "hello@studioia.com",
-  emailHref: "mailto:hello@studioia.com",
+  phone,
+  phoneHref: phoneToTelHref(phone),
+  email,
+  emailHref: email ? `mailto:${email}` : "#",
   serviceArea: "Santa Barbara County, CA",
   description:
     "Studio IA — Full-service ADU design and construction in Santa Barbara County. From consultation to completion, or pick the services you need — with a human touch at every step.",

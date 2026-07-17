@@ -7,11 +7,21 @@ Built with **Next.js** (App Router) and **React**.
 ## Getting started
 
 ```bash
+cp .env.example .env.local
 npm install
 npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
+
+## Environment variables
+
+| Variable | Description |
+|----------|-------------|
+| `NEXT_PUBLIC_CONTACT_PHONE` | Display phone number (e.g. `(805) 555-0123`) |
+| `NEXT_PUBLIC_CONTACT_EMAIL` | Contact email address |
+
+Copy `.env.example` to `.env.local` for local development. Set the same values in your host (e.g. Vercel) for production.
 
 ## Scripts
 
@@ -30,8 +40,7 @@ Push to GitHub and connect to [Vercel](https://vercel.com) (recommended for Next
 
 The contact form is a client-side placeholder. When deploying, wire it to Formspree or a Next.js Server Action.
 
-## Placeholder info to replace
+## Content to replace
 
-- Phone: `(805) 555-0123`
-- Email: `hello@studioia.com`
+- Phone and email via `.env.local` / deploy env vars (see above)
 - Portfolio project photos and copy in `src/lib/content.ts`
