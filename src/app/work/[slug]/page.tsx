@@ -72,28 +72,44 @@ export default async function CaseStudyPage({ params }: Props) {
 
       <section className="section">
         <div className="container case-study">
-          {project.video ? (
-            <ProjectVideo
-              src={project.video.src}
-              poster={project.video.poster ?? project.image}
-              caption={project.video.caption}
-            />
-          ) : null}
+          {project.gallery?.length || project.video ? (
+            <div className="case-study-stage">
+              {project.video ? (
+                <ProjectVideo
+                  src={project.video.src}
+                  poster={project.video.poster ?? project.image}
+                  caption={project.video.caption}
+                  variant="backdrop"
+                />
+              ) : null}
 
-          {project.gallery?.length ? (
-            <div className="case-study-gallery">
-              {project.gallery.map((photo, index) => (
-                <figure key={photo.src} className="case-study-media">
+              {project.gallery?.length ? (
+                <div className="case-study-gallery">
+                  {project.gallery.map((photo, index) => (
+                    <figure key={photo.src} className="case-study-media">
+                      <Image
+                        src={photo.src}
+                        alt={photo.alt}
+                        width={768}
+                        height={1024}
+                        sizes="(max-width: 700px) 100vw, 50vw"
+                        priority={index < 2}
+                      />
+                    </figure>
+                  ))}
+                </div>
+              ) : (
+                <div className="case-study-media">
                   <Image
-                    src={photo.src}
-                    alt={photo.alt}
-                    width={768}
-                    height={1024}
-                    sizes="(max-width: 700px) 100vw, 50vw"
-                    priority={index < 2}
+                    src={project.image}
+                    alt={project.imageAlt}
+                    width={1400}
+                    height={900}
+                    sizes="(max-width: 900px) 100vw, 70vw"
+                    priority
                   />
-                </figure>
-              ))}
+                </div>
+              )}
             </div>
           ) : (
             <div className="case-study-media">
