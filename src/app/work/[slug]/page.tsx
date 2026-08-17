@@ -6,6 +6,7 @@ import SiteShell from "@/components/SiteShell";
 import PageHero from "@/components/PageHero";
 import CtaBand from "@/components/CtaBand";
 import JsonLd from "@/components/JsonLd";
+import ProjectVideo from "@/components/ProjectVideo";
 import { getProject, projects } from "@/lib/projects";
 import {
   breadcrumbJsonLd,
@@ -71,16 +72,41 @@ export default async function CaseStudyPage({ params }: Props) {
 
       <section className="section">
         <div className="container case-study">
-          <div className="case-study-media">
-            <Image
-              src={project.image}
-              alt={project.imageAlt}
-              width={1400}
-              height={900}
-              sizes="(max-width: 900px) 100vw, 70vw"
-              priority
+          {project.video ? (
+            <ProjectVideo
+              src={project.video.src}
+              poster={project.video.poster ?? project.image}
+              caption={project.video.caption}
             />
-          </div>
+          ) : null}
+
+          {project.gallery?.length ? (
+            <div className="case-study-gallery">
+              {project.gallery.map((photo, index) => (
+                <figure key={photo.src} className="case-study-media">
+                  <Image
+                    src={photo.src}
+                    alt={photo.alt}
+                    width={768}
+                    height={1024}
+                    sizes="(max-width: 700px) 100vw, 50vw"
+                    priority={index < 2}
+                  />
+                </figure>
+              ))}
+            </div>
+          ) : (
+            <div className="case-study-media">
+              <Image
+                src={project.image}
+                alt={project.imageAlt}
+                width={1400}
+                height={900}
+                sizes="(max-width: 900px) 100vw, 70vw"
+                priority
+              />
+            </div>
+          )}
 
           <ul className="case-stats">
             {project.stats.map((stat) => (

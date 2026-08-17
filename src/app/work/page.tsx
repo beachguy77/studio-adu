@@ -20,7 +20,7 @@ export default function WorkIndexPage() {
       <PageHero
         eyebrow="Work"
         title="Selected ADU projects"
-        lead="Case studies documenting design intent, process, and outcomes. Photography placeholders will be replaced with project archives."
+        lead="Case studies documenting design intent, process, and outcomes — including original photography from completed work."
         breadcrumbs={[{ name: "Home", href: "/" }, { name: "Work" }]}
       />
 
