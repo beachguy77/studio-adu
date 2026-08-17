@@ -6,22 +6,19 @@ type ProjectVideoProps = {
   src: string;
   poster?: string;
   caption?: string;
-  variant?: "player" | "backdrop";
 };
 
 export default function ProjectVideo({
   src,
   poster,
   caption,
-  variant = "player",
 }: ProjectVideoProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const isBackdrop = variant === "backdrop";
   const label = caption ?? "Project video";
 
   useEffect(() => {
     const video = videoRef.current;
-    if (!video || !isBackdrop) return;
+    if (!video) return;
 
     const media = window.matchMedia("(prefers-reduced-motion: reduce)");
     const applyMotionPreference = () => {
@@ -29,7 +26,6 @@ export default function ProjectVideo({
       video.defaultMuted = true;
       if (media.matches) {
         video.pause();
-        video.removeAttribute("autoplay");
       } else {
         video.play().catch(() => {
           /* Autoplay can still be blocked; poster remains. */
@@ -40,30 +36,23 @@ export default function ProjectVideo({
     applyMotionPreference();
     media.addEventListener("change", applyMotionPreference);
     return () => media.removeEventListener("change", applyMotionPreference);
-  }, [isBackdrop]);
+  }, []);
 
   return (
-    <figure
-      className={
-        isBackdrop ? "case-study-video case-study-video--backdrop" : "case-study-video"
-      }
-    >
+    <figure className="case-study-media case-study-video">
       <video
         ref={videoRef}
-        autoPlay={isBackdrop}
+        autoPlay
         muted
-        loop={isBackdrop}
+        loop
         playsInline
-        controls={!isBackdrop}
-        preload={isBackdrop ? "auto" : "metadata"}
+        preload="metadata"
         poster={poster}
-        aria-hidden={isBackdrop}
-        aria-label={isBackdrop ? undefined : label}
+        aria-label={label}
       >
         <source src={src} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      {caption && !isBackdrop ? <figcaption>{caption}</figcaption> : null}
     </figure>
   );
 }
