@@ -727,6 +727,41 @@ a:hover {
   height: auto;
 }
 
+.case-study-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+.case-study-gallery .case-study-media {
+  margin: 0;
+}
+
+.case-study-gallery .case-study-media:first-child {
+  grid-column: 1 / -1;
+}
+
+.case-study-video {
+  margin: 0 auto;
+  max-width: 28rem;
+  width: 100%;
+}
+
+.case-study-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  background: #121c16;
+}
+
+.case-study-video figcaption {
+  margin-top: 0.65rem;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
 .case-stats {
   list-style: none;
   padding: 0;
@@ -1337,5 +1372,9 @@ a:hover {
 
   .project-image {
     aspect-ratio: 16 / 11;
+  }
+
+  .case-study-gallery {
+    gap: 0.5rem;
   }
 }
