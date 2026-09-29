@@ -27,6 +27,33 @@ export type Project = {
   };
 };
 
+const westSideGallery: ProjectImage[] = [
+  {
+    src: "/work/santa-barbara-west-side-adu/kitchen.jpg",
+    alt: "Kitchen corner with dark teal counters, sage zellige backsplash, chrome faucet, and a gingham curtain under the sink",
+  },
+  {
+    src: "/work/santa-barbara-west-side-adu/refrigerator.jpg",
+    alt: "Mint vintage Classic refrigerator with chrome handles beside a sage-trimmed door and lace curtain",
+  },
+  {
+    src: "/work/santa-barbara-west-side-adu/pink-door.jpg",
+    alt: "Dusty-pink multi-pane door with lace cafe curtains reflecting Santa Barbara sky and palms",
+  },
+  {
+    src: "/work/santa-barbara-west-side-adu/pink-sink.jpg",
+    alt: "Dusty-pink porcelain console sink with polished chrome legs, cross-handle faucet, and octagonal mirror",
+  },
+  {
+    src: "/work/santa-barbara-west-side-adu/shower.jpg",
+    alt: "Deep teal zellige shower with chrome showerhead, white ceramic lever handles, and a tiled niche",
+  },
+  {
+    src: "/work/santa-barbara-west-side-adu/tub.jpg",
+    alt: "White bathtub-shower with glossy teal tile, chrome fixtures, and a recessed niche",
+  },
+];
+
 export const projects: Project[] = [
   {
     slug: "santa-barbara-west-side-adu",
@@ -58,36 +85,48 @@ export const projects: Project[] = [
     image: "/work/santa-barbara-west-side-adu/kitchen.jpg",
     imageAlt:
       "West Side Santa Barbara ADU kitchen with teal counters, sage tile, chrome faucet, and gingham skirt under the sink",
-    gallery: [
-      {
-        src: "/work/santa-barbara-west-side-adu/kitchen.jpg",
-        alt: "Kitchen corner with dark teal counters, sage zellige backsplash, chrome faucet, and a gingham curtain under the sink",
-      },
-      {
-        src: "/work/santa-barbara-west-side-adu/refrigerator.jpg",
-        alt: "Mint vintage Classic refrigerator with chrome handles beside a sage-trimmed door and lace curtain",
-      },
-      {
-        src: "/work/santa-barbara-west-side-adu/pink-door.jpg",
-        alt: "Dusty-pink multi-pane door with lace cafe curtains reflecting Santa Barbara sky and palms",
-      },
-      {
-        src: "/work/santa-barbara-west-side-adu/pink-sink.jpg",
-        alt: "Dusty-pink porcelain console sink with polished chrome legs, cross-handle faucet, and octagonal mirror",
-      },
-      {
-        src: "/work/santa-barbara-west-side-adu/shower.jpg",
-        alt: "Deep teal zellige shower with chrome showerhead, white ceramic lever handles, and a tiled niche",
-      },
-      {
-        src: "/work/santa-barbara-west-side-adu/tub.jpg",
-        alt: "White bathtub-shower with glossy teal tile, chrome fixtures, and a recessed niche",
-      },
-    ],
+    gallery: westSideGallery,
     video: {
       src: "/work/santa-barbara-west-side-adu/tour.mp4",
       poster: "/work/santa-barbara-west-side-adu/kitchen.jpg",
       caption: "A walkthrough of the Santa Barbara West Side ADU.",
+    },
+  },
+  {
+    slug: "noleta-adu",
+    title: "Noleta ADU",
+    location: "Noleta",
+    locationSlug: "goleta",
+    scope: "Completed ADU",
+    metaTitle: "Noleta ADU | Santa Barbara County | Studio IA",
+    metaDescription:
+      "A 425 sq ft, 1-bedroom Noleta ADU in Santa Barbara County — site work leveraged with a retaining wall, finished in color, chrome, and custom interiors.",
+    summary:
+      "A 425 sq ft, 1-bedroom ADU in Noleta — Santa Barbara County site work that leveraged an existing retaining wall into a compact, highly finished home.",
+    challenge:
+      "The lot needed a small, livable ADU without excess grading. Working with the existing retaining wall and a tight footprint meant every square foot had to earn its keep.",
+    approach:
+      "Studio IA coordinated a 425 sq ft, 1-bedroom plan that used the retaining wall as a site advantage rather than a constraint. Design, permit, and construction coordination kept the finish personal: chrome, handmade tile, and bold color in a county-jurisdiction build.",
+    outcome:
+      "A one-bedroom ADU that reads larger than its footprint — teal kitchen, dusty-pink bath, and a walkable Santa Barbara County site that makes smart use of the retaining wall.",
+    services: [
+      "ADU Design",
+      "Construction Coordination",
+      "Permit Coordination",
+    ],
+    stats: [
+      { label: "Size", value: "425 sq ft" },
+      { label: "Layout", value: "1 bedroom" },
+      { label: "Site", value: "Retaining wall" },
+    ],
+    image: "/work/santa-barbara-west-side-adu/kitchen.jpg",
+    imageAlt:
+      "Noleta ADU kitchen with teal counters, sage tile, and chrome faucet — 425 sq ft Santa Barbara County project",
+    gallery: westSideGallery,
+    video: {
+      src: "/work/santa-barbara-west-side-adu/tour.mp4",
+      poster: "/work/santa-barbara-west-side-adu/kitchen.jpg",
+      caption: "A walkthrough of the Noleta ADU.",
     },
   },
   {
@@ -107,7 +146,12 @@ export const projects: Project[] = [
       "We oriented the cottage for light and privacy, kept the footprint efficient, and coordinated permitting and construction as a continuous design-build path.",
     outcome:
       "A warm, independent living space that feels connected to the garden and finished with durable, calm materials.",
-    services: ["Full Journey", "ADU Design", "Construction Coordination", "Permit Coordination"],
+    services: [
+      "Full Journey",
+      "ADU Design",
+      "Construction Coordination",
+      "Permit Coordination",
+    ],
     stats: [
       { label: "Size", value: "650 sq ft" },
       { label: "Type", value: "Detached ADU" },
@@ -117,62 +161,6 @@ export const projects: Project[] = [
       "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=1400&q=80",
     imageAlt:
       "Living room with polished chrome seating, glass tables, and marble fireplace — placeholder for Goleta coastal cottage",
-  },
-  {
-    slug: "santa-barbara-hillside-studio",
-    title: "Hillside studio ADU",
-    location: "Santa Barbara",
-    locationSlug: "santa-barbara",
-    scope: "Design & permits",
-    metaTitle: "Santa Barbara Hillside Studio ADU Case Study | Studio IA",
-    metaDescription:
-      "Case study: compact hillside studio ADU in Santa Barbara — custom design and county plan submission by Studio IA.",
-    summary:
-      "A compact backyard studio designed for a hillside lot, with custom drawings and plan submission support.",
-    challenge:
-      "Limited flat area and privacy needs required a compact footprint and careful massing relative to the main house.",
-    approach:
-      "We developed a efficient studio plan, refined elevations for the hillside context, and managed permitting documentation for submission.",
-    outcome:
-      "A permit-oriented design package ready for the homeowners’ construction path — calm, compact, and site-specific.",
-    services: ["ADU Design", "Permit Coordination"],
-    stats: [
-      { label: "Type", value: "Studio ADU" },
-      { label: "Scope", value: "Design & permits" },
-      { label: "Setting", value: "Hillside" },
-    ],
-    image:
-      "https://images.unsplash.com/photo-1618220179428-22790b461013?w=1400&q=80",
-    imageAlt:
-      "Burnt-orange velvet chair with mustard sideboard and sculptural accents — placeholder for Santa Barbara studio ADU",
-  },
-  {
-    slug: "carpinteria-garden-suite",
-    title: "Garden guest suite",
-    location: "Carpinteria",
-    locationSlug: "carpinteria",
-    scope: "Design only",
-    metaTitle: "Carpinteria Garden Guest Suite ADU Case Study | Studio IA",
-    metaDescription:
-      "Case study: architectural design package for a Carpinteria garden guest suite ADU by Studio IA.",
-    summary:
-      "Architectural drawings and a design package for a garden-oriented guest suite — prepared for a client-managed build.",
-    challenge:
-      "The clients wanted a gracious guest suite that preserved garden space and could be built by their selected contractor.",
-    approach:
-      "We delivered a clear design package — plans, elevations, and material direction — coordinated for constructability and local expectations.",
-    outcome:
-      "A refined design-only engagement that gave the owners clarity and their builder a coherent set to execute.",
-    services: ["ADU Design"],
-    stats: [
-      { label: "Scope", value: "Design only" },
-      { label: "Use", value: "Guest suite" },
-      { label: "Setting", value: "Garden lot" },
-    ],
-    image:
-      "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=1400&q=80",
-    imageAlt:
-      "Emerald velvet dining chairs under a sculptural globe chandelier — placeholder for Carpinteria guest suite",
   },
 ];
 

@@ -93,5 +93,4 @@ export const testimonial = {
   attribution: "Homeowners, Santa Barbara",
 };
 
-export const heroImage =
-  "https://images.unsplash.com/photo-1600585152915-d208bec867a1?w=1800&q=80";
+export const heroImage = "/work/santa-barbara-west-side-adu/kitchen.jpg";
