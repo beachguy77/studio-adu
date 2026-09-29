@@ -53,8 +53,7 @@ export const siteConfig = {
   social: {
     sameAs: [] as string[],
   },
-  ogImage:
-    "https://images.unsplash.com/photo-1600585152915-d208bec867a1?w=1200&h=630&fit=crop&q=80",
+  ogImage: "/work/santa-barbara-west-side-adu/kitchen.jpg",
 };
 
 export const navLinks = [
