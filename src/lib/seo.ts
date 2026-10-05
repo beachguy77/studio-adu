@@ -52,7 +52,7 @@ export function createPageMetadata({
 export function localBusinessJsonLd() {
   return {
     "@context": "https://schema.org",
-    "@type": ["HomeAndConstructionBusiness", "LocalBusiness"],
+    "@type": ["ProfessionalService", "LocalBusiness"],
     "@id": `${siteUrl}/#business`,
     name: siteConfig.name,
     legalName: siteConfig.legalName,
@@ -89,12 +89,15 @@ export function localBusinessJsonLd() {
       jobTitle: siteConfig.founder.role,
     },
     knowsAbout: [
+      "Interior Design",
+      "Interior Design Consulting",
+      "Material Sourcing",
+      "Project Coordination",
+      "Hospitality Interiors",
       "Accessory Dwelling Units",
       "ADU Design",
-      "ADU Project Management",
+      "ADU Project Coordination",
       "Permit Coordination",
-      "Garage Conversion",
-      "Design Coordination",
     ],
     ...(siteConfig.social.sameAs.length
       ? { sameAs: siteConfig.social.sameAs }

@@ -14,9 +14,9 @@ import { homeFaqs } from "@/lib/faqs";
 import { createPageMetadata, faqJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Thoughtfully Designed ADUs in Santa Barbara",
+  title: "Interior Design & Project Coordination in Santa Barbara",
   description:
-    "Studio IA is Santa Barbara’s premium ADU design and project management studio — one point of contact from feasibility and design through permitting and construction coordination.",
+    "Studio IAR is a Santa Barbara interior design studio — design consulting, material sourcing, and project coordination for residential and hospitality, with ADU coordination as a local specialty.",
   path: "/",
 });
 

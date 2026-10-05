@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import SiteShell from "@/components/SiteShell";
 import PageHero from "@/components/PageHero";
-import ContactForm from "@/components/ContactForm";
+import Contact from "@/components/Contact";
 import { createPageMetadata } from "@/lib/seo";
-import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Contact",
   description:
-    "Contact Studio IA for ADU design and construction consultations in Santa Barbara County. Call or send a message to start the conversation.",
+    "Contact Studio IAR for interior design consulting, material sourcing, project coordination, or ADU coordination in Santa Barbara County.",
   path: "/contact",
 });
 
@@ -17,16 +16,11 @@ export default function ContactPage() {
     <SiteShell>
       <PageHero
         eyebrow="Contact"
-        title="Let’s discuss your ADU"
-        lead={`Serving ${siteConfig.serviceArea}. Share a few details and we’ll follow up with thoughtful next steps.`}
+        title="Let’s talk about your project"
+        lead="Share a bit about your space, timeline, and goals — residential, hospitality, or ADU. We’ll recommend the right path."
         breadcrumbs={[{ name: "Home", href: "/" }, { name: "Contact" }]}
       />
-
-      <section className="section">
-        <div className="container">
-          <ContactForm showIntro heading="Consultation request" />
-        </div>
-      </section>
+      <Contact />
     </SiteShell>
   );
 }

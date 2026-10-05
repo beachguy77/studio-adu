@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export default function CtaBand({
-  title = "Ready to talk about your ADU?",
-  text = "Schedule a consultation. We’ll discuss your property, timeline, and the right coordinated path — design, permits, construction coordination, or the full journey.",
+  title = "Ready to talk about your project?",
+  text = "Schedule a consultation. We’ll discuss your space, timeline, and the right path — design consulting, sourcing, project coordination, or ADU coordination.",
   primaryHref = "/contact",
   primaryLabel = "Schedule a consultation",
   secondaryHref = "/services",

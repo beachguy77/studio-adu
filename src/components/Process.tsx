@@ -8,7 +8,7 @@ export default function Process() {
         <Reveal>
           <div className="section-header">
             <p className="eyebrow">How it works</p>
-            <h2>Design. Coordinate. Deliver.</h2>
+            <h2>Design. Source. Coordinate.</h2>
           </div>
         </Reveal>
 

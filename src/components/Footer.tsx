@@ -7,10 +7,10 @@ export default function Footer() {
       <div className="container footer-grid">
         <div className="footer-brand-block">
           <p className="footer-brand">
-            Studio <span>IA</span>
+            Studio <span>IAR</span>
           </p>
           <p className="footer-meta">
-            ADU design &amp; project coordination · {siteConfig.serviceArea}
+            Interior design &amp; coordination · {siteConfig.serviceArea}
           </p>
           <p className="footer-meta">License # pending</p>
           <p className="footer-meta">
@@ -56,7 +56,7 @@ export default function Footer() {
 
       <div className="container footer-bottom">
         <p className="footer-copy">
-          &copy; {new Date().getFullYear()} Studio IA. All rights reserved.
+          &copy; {new Date().getFullYear()} Studio IAR. All rights reserved.
         </p>
         <p className="footer-copy">
           Founded by {siteConfig.founder.name}

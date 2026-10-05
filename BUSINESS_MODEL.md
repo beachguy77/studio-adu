@@ -1,19 +1,18 @@
-# Studio IA Business Model
+# Studio IAR Business Model
 
 ## Positioning
-Studio IA is a premium ADU design and project management studio based in Santa Barbara.
+Studio IAR is a Santa Barbara-based interior design studio offering design consulting, material sourcing, and project coordination for residential and hospitality projects.
 
-We coordinate a trusted network of licensed architects, engineers, consultants, and California licensed general contractors, giving homeowners one point of contact from feasibility through completion.
+We bring 15 years of interior design industry experience working on major hotels and restaurants, with a local specialty in ADU coordination alongside independently licensed architects, engineers, and general contractors.
 
 ## Services
-- Property feasibility
-- Design coordination
-- Permit coordination
-- Consultant coordination
+- Interior design consulting
+- Material sourcing
 - Project coordination
+- ADU coordination (feasibility, design, permitting, construction coordination)
 - Client communication
 
-## Subconsultants
+## Subconsultants (as needed)
 - Licensed Architects
 - Structural/Civil Engineers
 - Surveyors
@@ -21,7 +20,7 @@ We coordinate a trusted network of licensed architects, engineers, consultants, 
 - Licensed General Contractors
 
 ## Promise
-One Team. One Process. One Beautiful ADU.
+Thoughtful interiors. Seamless coordination.
 
 ## Long-Term Vision
-Become Santa Barbara's trusted ADU partner, then expand regionally while growing consulting and digital design services.
+Become Santa Barbara’s trusted interior design and coordination partner — known for hospitality-caliber craft at residential scale, with ADU delivery as a clear local specialty.

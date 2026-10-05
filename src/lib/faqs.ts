@@ -5,6 +5,11 @@ export type FaqItem = {
 
 export const homeFaqs: FaqItem[] = [
   {
+    question: "What does Studio IAR do?",
+    answer:
+      "Studio IAR is a Santa Barbara interior design studio offering design consulting, material sourcing, and project coordination for residential and hospitality work — with ADU coordination as a local specialty.",
+  },
+  {
     question: "Are you architects?",
     answer:
       "We collaborate with licensed California architects whenever architectural services are required.",
@@ -12,27 +17,61 @@ export const homeFaqs: FaqItem[] = [
   {
     question: "Do you build ADUs?",
     answer:
-      "Construction is performed by licensed California contractors. Studio IA coordinates the project according to the services defined in each client agreement.",
+      "Construction is performed by licensed California contractors. Studio IAR coordinates the project according to the services defined in each client agreement.",
   },
   {
-    question: "How much does an ADU cost in Santa Barbara County?",
+    question: "Do you only work on ADUs?",
     answer:
-      "Costs vary by size, site conditions, finishes, and scope. We begin with a feasibility conversation so you understand budget drivers before committing to a full design path.",
-  },
-  {
-    question: "How long does ADU permitting take in Santa Barbara?",
-    answer:
-      "Timelines depend on jurisdiction, project complexity, and revision cycles. We coordinate submittals and responses so you are not navigating plan check alone.",
+      "No. ADUs are a local specialty. Our broader practice is interior design consulting, material sourcing, and project coordination for residential and hospitality projects.",
   },
   {
     question: "Do I need to hire and manage every consultant myself?",
     answer:
-      "No. Studio IA is built to be one point of contact — coordinating architects, engineers, consultants, and licensed builders into one managed experience.",
+      "No. Studio IAR is built to be one point of contact — coordinating design, sourcing, and licensed partners into one managed experience.",
   },
   {
-    question: "Which cities does Studio IA serve?",
+    question: "Which cities does Studio IAR serve?",
     answer:
       "We serve Santa Barbara, Montecito, Goleta, Carpinteria, Summerland, Ventura, and surrounding communities.",
+  },
+];
+
+export const consultingFaqs: FaqItem[] = [
+  {
+    question: "What is included in interior design consulting?",
+    answer:
+      "Discovery, concept direction, spatial planning, and finish guidance for residential or hospitality interiors — scoped to the depth of engagement you need.",
+  },
+  {
+    question: "Do you work on hospitality projects?",
+    answer:
+      "Yes. Studio IAR brings experience from major hotels and restaurants into local residential and hospitality interiors.",
+  },
+];
+
+export const sourcingFaqs: FaqItem[] = [
+  {
+    question: "Can you source materials without a full redesign?",
+    answer:
+      "Often yes. We can support procurement and selections against an existing design direction after a short alignment review.",
+  },
+  {
+    question: "Do you manage lead times and orders?",
+    answer:
+      "Yes. Material sourcing includes coordinating selections, alternatives, and order timing so finishes arrive when the project needs them.",
+  },
+];
+
+export const coordinationFaqs: FaqItem[] = [
+  {
+    question: "How is project coordination different from being a general contractor?",
+    answer:
+      "Licensed California contractors perform construction. Studio IAR coordinates communication, sequencing, and client decisions according to your agreement — we do not market ourselves as the builder.",
+  },
+  {
+    question: "Can you coordinate with my existing architect or contractor?",
+    answer:
+      "Yes. We often join as the design and coordination layer alongside independently licensed professionals already on the project.",
   },
 ];
 
@@ -53,10 +92,10 @@ export const constructionFaqs: FaqItem[] = [
   {
     question: "Do you build the ADU yourselves?",
     answer:
-      "Construction is performed by licensed California contractors. Studio IA coordinates the build according to the services in your agreement — keeping communication clear and the process coherent.",
+      "Construction is performed by licensed California contractors. Studio IAR coordinates the build according to the services in your agreement — keeping communication clear and the process coherent.",
   },
   {
-    question: "Can Studio IA coordinate construction from another designer’s plans?",
+    question: "Can Studio IAR coordinate construction from another designer’s plans?",
     answer:
       "Often yes, after a readiness review. We confirm whether drawings are coordinated and permit-aligned before construction coordination begins.",
   },
@@ -77,7 +116,7 @@ export const garageFaqs: FaqItem[] = [
 
 export const designBuildFaqs: FaqItem[] = [
   {
-    question: "What does a full Studio IA journey include?",
+    question: "What does a full Studio IAR ADU journey include?",
     answer:
       "One coordinated path from feasibility and design through permitting and construction coordination — fewer handoffs, clearer accountability, and decisions informed by delivery from day one.",
   },

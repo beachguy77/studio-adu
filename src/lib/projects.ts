@@ -61,7 +61,7 @@ export const projects: Project[] = [
     location: "Santa Barbara",
     locationSlug: "santa-barbara",
     scope: "Completed ADU",
-    metaTitle: "Santa Barbara West Side ADU | Studio IA",
+    metaTitle: "Santa Barbara West Side ADU | Studio IAR",
     metaDescription:
       "A West Side Santa Barbara ADU finished in color, chrome, and custom pieces — dusty-pink porcelain, a mint Classic refrigerator, sage tile, and a deep teal shower.",
     summary:
@@ -69,7 +69,7 @@ export const projects: Project[] = [
     challenge:
       "The homeowners wanted a compact ADU that felt personal rather than generic — a place with character, craft, and a few unforgettable pieces.",
     approach:
-      "Studio IA coordinated a design-led finish: polished chrome, handmade tile, and vintage-inspired fixtures against cream walls and warm floors. Color does the work — dusty pink, mint, sage, and teal — so the small rooms feel considered, not cramped.",
+      "Studio IAR coordinated a design-led finish: polished chrome, handmade tile, and vintage-inspired fixtures against cream walls and warm floors. Color does the work — dusty pink, mint, sage, and teal — so the small rooms feel considered, not cramped.",
     outcome:
       "A livable, highly specific interior: a kitchen with teal counters and gingham under the sink, a bathroom with a pink console basin and zellige shower, and a pink door that greets the California light.",
     services: [
@@ -98,7 +98,7 @@ export const projects: Project[] = [
     location: "Noleta",
     locationSlug: "goleta",
     scope: "Completed ADU",
-    metaTitle: "Noleta ADU | Santa Barbara County | Studio IA",
+    metaTitle: "Noleta ADU | Santa Barbara County | Studio IAR",
     metaDescription:
       "A 425 sq ft, 1-bedroom Noleta ADU in Santa Barbara County — site work leveraged with a retaining wall, finished in color, chrome, and custom interiors.",
     summary:
@@ -106,7 +106,7 @@ export const projects: Project[] = [
     challenge:
       "The lot needed a small, livable ADU without excess grading. Working with the existing retaining wall and a tight footprint meant every square foot had to earn its keep.",
     approach:
-      "Studio IA coordinated a 425 sq ft, 1-bedroom plan that used the retaining wall as a site advantage rather than a constraint. Design, permit, and construction coordination kept the finish personal: chrome, handmade tile, and bold color in a county-jurisdiction build.",
+      "Studio IAR coordinated a 425 sq ft, 1-bedroom plan that used the retaining wall as a site advantage rather than a constraint. Design, permit, and construction coordination kept the finish personal: chrome, handmade tile, and bold color in a county-jurisdiction build.",
     outcome:
       "A one-bedroom ADU that reads larger than its footprint — teal kitchen, dusty-pink bath, and a walkable Santa Barbara County site that makes smart use of the retaining wall.",
     services: [
@@ -135,9 +135,9 @@ export const projects: Project[] = [
     location: "Goleta",
     locationSlug: "goleta",
     scope: "Full build",
-    metaTitle: "Goleta Coastal Cottage ADU Case Study | Studio IA",
+    metaTitle: "Goleta Coastal Cottage ADU Case Study | Studio IAR",
     metaDescription:
-      "Case study: 650 sq ft detached ADU in Goleta — design through construction by Studio IA, with open living and a private patio.",
+      "Case study: 650 sq ft detached ADU in Goleta — design through construction by Studio IAR, with open living and a private patio.",
     summary:
       "A 650 sq ft detached ADU with open living, a full kitchen, and a private patio — designed and built for everyday comfort.",
     challenge:

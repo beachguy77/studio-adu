@@ -2,36 +2,32 @@
 
 ## Hero
 
-Thoughtfully Designed ADUs.
-Seamlessly Delivered.
+Thoughtfully designed interiors.
+Seamlessly coordinated.
 
-Studio IA guides homeowners through every stage of the ADU journey—from feasibility and design through permitting and construction coordination.
-
-One point of contact.
-One trusted team.
-One beautifully managed experience.
+Studio IAR is a Santa Barbara interior design studio offering design consulting, material sourcing, and project coordination for residential and hospitality projects — with a local specialty in ADU coordination.
 
 CTA: Schedule a Consultation
 
 ## About
 
-Building an ADU shouldn't require coordinating multiple firms.
+Beautiful spaces shouldn’t require coordinating every firm yourself.
 
-Studio IA simplifies the process by bringing together experienced architects, engineers, consultants, and licensed builders into one coordinated experience.
+Studio IAR brings 15 years of interior design experience — including major hotels and restaurants — together with material sourcing and project coordination. For ADUs, we work alongside independently licensed architects, engineers, and general contractors.
 
-## Why Studio IA
+## Why Studio IAR
 
 Traditional:
-Architect → Engineer → Contractor → Homeowner manages everyone
+Designer → Architect → Engineer → Contractor → You manage everyone
 
-Studio IA:
+Studio IAR:
 One conversation.
 One coordinated process.
 One trusted team.
 
 ## Taglines
-- One Team. One Process. One Beautiful ADU.
-- Design. Coordinate. Deliver.
+- Thoughtful interiors. Seamless coordination.
+- Design. Source. Coordinate.
 - Thoughtful Design. Seamless Delivery.
 
 ## FAQ
@@ -40,4 +36,7 @@ Q: Are you architects?
 A: We collaborate with licensed California architects whenever architectural services are required.
 
 Q: Do you build ADUs?
-A: Construction is performed by licensed California contractors. Studio IA coordinates the project according to the services defined in each client agreement.
+A: Construction is performed by licensed California contractors. Studio IAR coordinates the project according to the services defined in each client agreement.
+
+Q: What does Studio IAR do?
+A: Interior design consulting, material sourcing, and project coordination for residential and hospitality work — plus ADU coordination as a local specialty.

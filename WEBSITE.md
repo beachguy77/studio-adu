@@ -2,9 +2,10 @@
 
 ## Goals
 - Generate qualified consultations
-- Dominate Santa Barbara ADU SEO
-- Showcase premium work
-- Explain our coordination model clearly
+- Present Studio IAR as an interior design & coordination studio
+- Keep strong local ADU SEO as a specialty path
+- Showcase premium residential and hospitality-caliber work
+- Explain consulting, sourcing, and coordination clearly
 
 ## Required Pages
 Home
@@ -17,7 +18,7 @@ Blog
 Contact
 
 ## Messaging
-Follow [MESSAGING.md](./MESSAGING.md). Promise: One Team. One Process. One Beautiful ADU.
+Follow [MESSAGING.md](./MESSAGING.md). Promise: Thoughtful interiors. Seamless coordination.
 
 ## Standards
 - Fast
@@ -25,4 +26,5 @@ Follow [MESSAGING.md](./MESSAGING.md). Promise: One Team. One Process. One Beaut
 - SEO-first
 - Original photography
 - Strong CTAs
-- Accurate about who designs, who builds, and how Studio IA coordinates
+- Accurate about who designs, who builds, and how Studio IAR coordinates
+- Brand name: **Studio IAR** (never Studio IA in public copy)

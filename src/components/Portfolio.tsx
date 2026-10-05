@@ -10,9 +10,9 @@ export default function Portfolio() {
         <Reveal>
           <div className="section-header">
             <p className="eyebrow">Selected work</p>
-            <h2>ADU projects across the county</h2>
+            <h2>Selected projects</h2>
             <p className="section-lead">
-              Design coordination and full-journey examples.{" "}
+              Interiors and ADU delivery across the county.{" "}
               <Link href="/work">View all projects</Link>.
             </p>
           </div>

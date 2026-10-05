@@ -8,9 +8,9 @@ import { homeFaqs } from "@/lib/faqs";
 import { createPageMetadata, faqJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "ADU FAQ | Santa Barbara",
+  title: "FAQ | Santa Barbara",
   description:
-    "Answers about Studio IA’s ADU design and project management model — architects, contractors, permitting, costs, and Santa Barbara service areas.",
+    "Answers about Studio IAR’s interior design, sourcing, and coordination model — architects, contractors, ADUs, and Santa Barbara service areas.",
   path: "/faq",
 });
 
@@ -20,18 +20,18 @@ export default function FaqPage() {
       <JsonLd data={faqJsonLd(homeFaqs)} />
       <PageHero
         eyebrow="FAQ"
-        title="Clear answers about how Studio IA works"
-        lead="We are a premium ADU design and project management studio — one point of contact coordinating licensed professionals across Santa Barbara County."
+        title="Clear answers about how Studio IAR works"
+        lead="We are a Santa Barbara interior design studio — consulting, sourcing, and coordination for residential and hospitality, with ADU coordination as a local specialty."
         breadcrumbs={[{ name: "Home", href: "/" }, { name: "FAQ" }]}
       />
       <FaqSection
         faqs={homeFaqs}
-        eyebrow="Homeowners ask"
-        title="Design, coordination, and delivery"
+        eyebrow="Clients ask"
+        title="Design, sourcing, and delivery"
       />
       <CtaBand
         title="Still have questions?"
-        text="Schedule a consultation. We’ll walk through your property and the right coordinated path."
+        text="Schedule a consultation. We’ll walk through your project and the right coordinated path."
       />
     </SiteShell>
   );

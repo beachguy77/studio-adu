@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!project) return {};
 
   return createPageMetadata({
-    title: project.metaTitle.replace(" | Studio IA", ""),
+    title: project.metaTitle.replace(" | Studio IAR", ""),
     description: project.metaDescription,
     path: `/work/${project.slug}`,
     image: project.image,

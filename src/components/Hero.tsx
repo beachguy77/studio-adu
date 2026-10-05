@@ -11,19 +11,19 @@ export default function Hero() {
         />
       </div>
       <div className="container hero-content">
-        <p className="hero-brand">Studio IA</p>
+        <p className="hero-brand">Studio IAR</p>
         <h1>
-          Thoughtfully designed ADUs.
+          Thoughtfully designed interiors.
           <br />
-          Seamlessly delivered.
+          Seamlessly coordinated.
         </h1>
         <p className="hero-lead">
-          Studio IA guides homeowners through every stage of the ADU
-          journey—from feasibility and design through permitting and
-          construction coordination.
+          Studio IAR is a Santa Barbara interior design studio — consulting,
+          material sourcing, and project coordination for residential and
+          hospitality, with a local specialty in ADU coordination.
         </p>
         <p className="hero-promise">
-          One point of contact. One trusted team. One beautifully managed
+          One point of contact. One trusted team. One carefully managed
           experience.
         </p>
         <div className="hero-actions">

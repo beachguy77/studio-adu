@@ -1,4 +1,4 @@
-import { whyStudioIA } from "@/lib/content";
+import { whyStudioIAR } from "@/lib/content";
 import Reveal from "@/components/Reveal";
 
 export default function WhyStudioIA() {
@@ -7,11 +7,12 @@ export default function WhyStudioIA() {
       <div className="container">
         <Reveal>
           <div className="section-header">
-            <p className="eyebrow">Why Studio IA</p>
-            <h2>One team. One process. One beautiful ADU.</h2>
+            <p className="eyebrow">Why Studio IAR</p>
+            <h2>One team. One process. Beautiful spaces.</h2>
             <p className="section-lead">
-              Design. Coordinate. Deliver. — without asking you to manage every
-              firm yourself.
+              Design. Source. Coordinate. — without asking you to manage every
+              firm yourself. ADU coordination is one specialty within a broader
+              interiors practice.
             </p>
           </div>
         </Reveal>
@@ -19,17 +20,17 @@ export default function WhyStudioIA() {
         <Reveal delay={80}>
           <div className="why-grid">
             <div className="why-col">
-              <p className="why-label">{whyStudioIA.traditional.label}</p>
+              <p className="why-label">{whyStudioIAR.traditional.label}</p>
               <ol className="why-steps">
-                {whyStudioIA.traditional.steps.map((step) => (
+                {whyStudioIAR.traditional.steps.map((step) => (
                   <li key={step}>{step}</li>
                 ))}
               </ol>
             </div>
             <div className="why-col why-col-accent">
-              <p className="why-label">{whyStudioIA.studio.label}</p>
+              <p className="why-label">{whyStudioIAR.studio.label}</p>
               <ol className="why-steps">
-                {whyStudioIA.studio.steps.map((step) => (
+                {whyStudioIAR.studio.steps.map((step) => (
                   <li key={step}>{step}</li>
                 ))}
               </ol>

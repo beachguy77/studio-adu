@@ -9,11 +9,10 @@ export default function Services() {
         <Reveal>
           <div className="section-header">
             <p className="eyebrow">What we offer</p>
-            <h2>ADU services, carefully coordinated</h2>
+            <h2>Interiors, sourcing, and coordination</h2>
             <p className="section-lead">
-              Property feasibility, design coordination, permit coordination,
-              consultant coordination, and project communication — engage the
-              full journey or the stages you need.{" "}
+              Design consulting, material sourcing, and project coordination —
+              plus ADU coordination as a local specialty with licensed partners.{" "}
               <Link href="/services">View all services</Link>.
             </p>
           </div>

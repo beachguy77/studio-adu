@@ -9,9 +9,10 @@ export default function AreasPreview() {
         <Reveal>
           <div className="section-header">
             <p className="eyebrow">Service areas</p>
-            <h2>ADUs across the South Coast</h2>
+            <h2>Serving the South Coast</h2>
             <p className="section-lead">
-              Local pages for the communities we serve most often.
+              Interiors across Santa Barbara County — with dedicated ADU pages
+              for the communities we serve most often.
             </p>
           </div>
         </Reveal>

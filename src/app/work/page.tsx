@@ -8,9 +8,9 @@ import { projects } from "@/lib/projects";
 import { createPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "ADU Projects",
+  title: "Projects",
   description:
-    "Selected Studio IA ADU projects across Santa Barbara County — design, permitting, and full-build case studies.",
+    "Selected Studio IAR projects across Santa Barbara County — interiors and ADU case studies.",
   path: "/work",
 });
 
@@ -19,8 +19,8 @@ export default function WorkIndexPage() {
     <SiteShell>
       <PageHero
         eyebrow="Work"
-        title="Selected ADU projects"
-        lead="Case studies documenting design intent, process, and outcomes — including original photography from completed work."
+        title="Selected projects"
+        lead="Case studies documenting design intent, process, and outcomes — including ADU delivery as a Studio IAR specialty."
         breadcrumbs={[{ name: "Home", href: "/" }, { name: "Work" }]}
       />
 

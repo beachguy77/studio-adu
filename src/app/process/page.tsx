@@ -8,9 +8,9 @@ import { createPageMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "ADU Process | Design. Coordinate. Deliver.",
+  title: "Process | Design. Source. Coordinate.",
   description:
-    "How Studio IA’s design-led ADU process works in Santa Barbara — from feasibility through permitting and construction coordination with licensed professionals.",
+    "How Studio IAR’s design-led process works in Santa Barbara — consulting, sourcing, and coordination for interiors, with ADU pathways alongside licensed professionals.",
   path: "/process",
 });
 
@@ -19,8 +19,8 @@ export default function ProcessPage() {
     <SiteShell>
       <PageHero
         eyebrow="Process"
-        title="Design. Coordinate. Deliver."
-        lead={`${siteConfig.promise} A design-led path with a single point of contact — and a trusted network of licensed professionals.`}
+        title="Design. Source. Coordinate."
+        lead={`${siteConfig.promise} A design-led path with a single point of contact — and a trusted network of licensed professionals when the project needs them.`}
         breadcrumbs={[{ name: "Home", href: "/" }, { name: "Process" }]}
       />
 
@@ -28,11 +28,12 @@ export default function ProcessPage() {
 
       <section className="section section-alt">
         <div className="container prose" style={{ maxWidth: "42rem" }}>
-          <h2>What “one process” means</h2>
+          <h2>What coordination means</h2>
           <p>
-            Traditional ADU projects often ask homeowners to hire and manage an
-            architect, engineer, and contractor separately. Studio IA simplifies
-            that into one coordinated experience.
+            Traditional projects often ask clients to hire and manage a
+            designer, architect, engineer, and contractor separately. Studio
+            IAR simplifies that into one coordinated experience — interiors
+            first, with ADU delivery as a specialty path when needed.
           </p>
           <p>
             We collaborate with licensed California architects whenever

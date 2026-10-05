@@ -9,9 +9,9 @@ import { testimonial } from "@/lib/content";
 import { createPageMetadata, personJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "About Imogen Adams Reyes & Studio IA",
+  title: "About Imogen Adams Reyes & Studio IAR",
   description:
-    "Meet Imogen Adams Reyes and Studio IA — a Santa Barbara ADU design and project management studio offering one coordinated path from feasibility through delivery.",
+    "Meet Imogen Adams Reyes and Studio IAR — a Santa Barbara interior design studio offering consulting, material sourcing, and project coordination, with ADU coordination as a local specialty.",
   path: "/about",
 });
 
@@ -23,7 +23,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About"
         title="A design studio that coordinates delivery"
-        lead="Studio IA was founded so homeowners don’t have to manage an architect, engineer, and contractor alone — one trusted team, one carefully managed experience."
+        lead="Studio IAR was founded so clients don’t have to manage every designer, consultant, and contractor alone — thoughtful interiors, clear sourcing, and carefully managed coordination."
         breadcrumbs={[{ name: "Home", href: "/" }, { name: "About" }]}
       />
 
@@ -32,22 +32,26 @@ export default function AboutPage() {
           <div className="prose">
             <h2>Our approach</h2>
             <p>
-              Building an ADU shouldn&apos;t require coordinating multiple
-              firms. Studio IA brings together experienced architects,
-              engineers, consultants, and licensed builders into one
-              coordinated experience.
+              Beautiful spaces shouldn&apos;t require coordinating multiple firms.
+              Studio IAR brings fifteen years of interior design experience —
+              including major hotels and restaurants — into residential and
+              hospitality work through design consulting, material sourcing, and
+              project coordination.
             </p>
             <p>
-              We guide{" "}
-              <Link href="/services/adu-design">design</Link>,{" "}
-              <Link href="/services/permitting">permit coordination</Link>, and{" "}
-              <Link href="/services/adu-construction">
-                construction coordination
+              Explore{" "}
+              <Link href="/services/interior-design-consulting">
+                design consulting
               </Link>
-              — or a full{" "}
-              <Link href="/services/design-build">journey</Link> from
-              feasibility through delivery. You choose the depth of engagement;
-              we keep the standard of care.
+              ,{" "}
+              <Link href="/services/material-sourcing">material sourcing</Link>,
+              and{" "}
+              <Link href="/services/project-coordination">
+                project coordination
+              </Link>
+              — or our local{" "}
+              <Link href="/services/design-build">ADU full journey</Link>. You
+              choose the depth of engagement; we keep the standard of care.
             </p>
 
             <h2>{siteConfig.founder.name}</h2>
@@ -83,7 +87,13 @@ export default function AboutPage() {
               </li>
               <li>
                 <strong>Focus</strong>
-                <span>Design &amp; project coordination for ADUs</span>
+                <span>
+                  Interior design consulting, sourcing &amp; coordination
+                </span>
+              </li>
+              <li>
+                <strong>Specialty</strong>
+                <span>ADU coordination with licensed partners</span>
               </li>
               <li>
                 <strong>Promise</strong>

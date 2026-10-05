@@ -1,44 +1,30 @@
 export const servicesPreview = [
   {
     step: "01",
-    title: "Feasibility",
+    title: "Design consulting",
     description:
-      "Property review, zoning clarity, and budget guidance before you commit to drawings.",
-    href: "/contact",
+      "Residential and hospitality interiors shaped with clarity — concepts, finishes, and decisions that hold up in real life.",
+    href: "/services/interior-design-consulting",
   },
   {
     step: "02",
-    title: "Design coordination",
+    title: "Material sourcing",
     description:
-      "Thoughtful ADU design developed with licensed architects when architectural services are required.",
-    href: "/services/adu-design",
+      "Fixtures, surfaces, and furnishings selected with care — so the palette, budget, and lead times stay coherent.",
+    href: "/services/material-sourcing",
   },
   {
     step: "03",
-    title: "Consultant coordination",
+    title: "Project coordination",
     description:
-      "Engineers, surveyors, and specialists brought in when the project needs them — without you managing the roster.",
-    href: "/services/design-build",
+      "One point of contact across consultants and trades — fewer handoffs and a calmer path from idea to installation.",
+    href: "/services/project-coordination",
   },
   {
     step: "04",
-    title: "Permit coordination",
+    title: "ADU coordination",
     description:
-      "Submittals, revisions, and planner communication handled as one coordinated process.",
-    href: "/services/permitting",
-  },
-  {
-    step: "05",
-    title: "Construction coordination",
-    description:
-      "Licensed California contractors perform the build. Studio IA coordinates according to your agreement.",
-    href: "/services/adu-construction",
-  },
-  {
-    step: "06",
-    title: "Delivery",
-    description:
-      "Clear communication through completion — one point of contact to the finish.",
+      "A local specialty: feasibility through design, permitting, and construction coordination with licensed partners.",
     href: "/services/design-build",
   },
 ] as const;
@@ -46,39 +32,39 @@ export const servicesPreview = [
 export const processSteps = [
   {
     title: "Consult",
-    description: "We listen, assess feasibility, and define the right path.",
+    description: "We listen, clarify scope, and define the right engagement.",
   },
   {
     title: "Design",
-    description: "Plans take shape with coordinated design partners.",
+    description: "Interiors take shape — concepts, materials, and spatial decisions.",
   },
   {
-    title: "Permit",
-    description: "Submittals and responses are managed for you.",
+    title: "Source",
+    description: "Finishes and furnishings are selected and scheduled with care.",
   },
   {
-    title: "Build",
-    description: "Licensed contractors build; we keep the process coherent.",
+    title: "Coordinate",
+    description: "Licensed partners and trades stay aligned through delivery.",
   },
   {
     title: "Deliver",
-    description: "Final coordination, handoff, and a finished ADU.",
+    description: "Final walkthrough, handoff, and a space that feels considered.",
   },
 ] as const;
 
 export const aboutStats = [
-  { value: "One team", label: "Single point of contact" },
-  { value: "One process", label: "Coordinated from start to finish" },
-  { value: "One ADU", label: "Thoughtfully designed & delivered" },
+  { value: "15 years", label: "Interior design experience" },
+  { value: "One studio", label: "Consulting, sourcing & coordination" },
+  { value: "ADU specialty", label: "Local coordination with licensed partners" },
 ] as const;
 
-export const whyStudioIA = {
+export const whyStudioIAR = {
   traditional: {
     label: "Traditional",
-    steps: ["Architect", "Engineer", "Contractor", "You manage everyone"],
+    steps: ["Designer", "Architect", "Engineer", "Contractor", "You manage everyone"],
   },
   studio: {
-    label: "Studio IA",
+    label: "Studio IAR",
     steps: [
       "One conversation",
       "One coordinated process",
@@ -89,7 +75,7 @@ export const whyStudioIA = {
 
 export const testimonial = {
   quote:
-    "Studio IA walked us through permits and design with patience and clarity. It felt personal the whole way — not like managing a dozen handoffs.",
+    "Studio IAR walked us through design and permits with patience and clarity. It felt personal the whole way — not like managing a dozen handoffs.",
   attribution: "Homeowners, Santa Barbara",
 };
 

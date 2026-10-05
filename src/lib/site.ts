@@ -13,10 +13,10 @@ const phone = process.env.NEXT_PUBLIC_CONTACT_PHONE ?? "(805) 555-0123";
 const email = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "hello@studioia.com";
 
 export const siteConfig = {
-  name: "Studio IA",
-  legalName: "Studio IA",
-  tagline: "Thoughtful Design. Seamless Delivery.",
-  promise: "One Team. One Process. One Beautiful ADU.",
+  name: "Studio IAR",
+  legalName: "Studio IAR",
+  tagline: "Thoughtful interiors. Seamless coordination.",
+  promise: "Thoughtful interiors. Seamless coordination.",
   phone,
   phoneHref: phoneToTelHref(phone),
   email,
@@ -24,7 +24,7 @@ export const siteConfig = {
   serviceArea: "Santa Barbara County, CA",
   url: siteUrl,
   description:
-    "Studio IA is a premium ADU design and project management studio in Santa Barbara. One point of contact from feasibility and design through permitting and construction coordination.",
+    "Studio IAR is a Santa Barbara interior design studio offering design consulting, material sourcing, and project coordination for residential and hospitality — with a local specialty in ADU coordination.",
   locale: "en_US",
   address: {
     streetAddress: "",
@@ -48,7 +48,7 @@ export const siteConfig = {
   founder: {
     name: "Imogen Adams Reyes",
     role: "Founder & Principal",
-    bio: "Imogen Adams Reyes founded Studio IA to give Santa Barbara homeowners one trusted point of contact for ADUs — coordinating design, consultants, permitting, and licensed builders into a clear, carefully managed experience.",
+    bio: "Imogen Adams Reyes founded Studio IAR after 15 years in interior design — including major hotels and restaurants — to offer Santa Barbara clients design consulting, material sourcing, and project coordination, with ADU coordination as a local specialty alongside licensed partners.",
   },
   social: {
     sameAs: [] as string[],
@@ -67,10 +67,11 @@ export const navLinks = [
 
 export const footerLinks = {
   services: [
+    { href: "/services/interior-design-consulting", label: "Design Consulting" },
+    { href: "/services/material-sourcing", label: "Material Sourcing" },
+    { href: "/services/project-coordination", label: "Project Coordination" },
+    { href: "/services/design-build", label: "ADU Full Journey" },
     { href: "/services/adu-design", label: "ADU Design" },
-    { href: "/services/adu-construction", label: "Construction Coordination" },
-    { href: "/services/garage-conversion", label: "Garage Conversion" },
-    { href: "/services/design-build", label: "Full Journey" },
     { href: "/services/permitting", label: "Permit Coordination" },
   ],
   areas: [

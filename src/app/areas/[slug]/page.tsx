@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!location) return {};
 
   return createPageMetadata({
-    title: location.metaTitle.replace(" | Studio IA", ""),
+    title: location.metaTitle.replace(" | Studio IAR", ""),
     description: location.metaDescription,
     path: `/areas/${location.slug}`,
   });
@@ -138,7 +138,7 @@ export default async function LocationPage({ params }: Props) {
 
       <CtaBand
         title={`Planning an ADU in ${location.name}?`}
-        text="Share your address, goals, and timeline — we’ll recommend the right Studio IA path."
+        text="Share your address, goals, and timeline — we’ll recommend the right Studio IAR path."
       />
     </SiteShell>
   );

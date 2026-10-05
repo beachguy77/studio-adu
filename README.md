@@ -1,17 +1,17 @@
-# Studio IA
+# Studio IAR
 
 ## Vision
-Studio IA is a premium ADU design and project management studio based in Santa Barbara, California.
+Studio IAR is a Santa Barbara-based interior design studio offering design consulting, material sourcing, and project coordination for residential and hospitality projects — with a local specialty in ADU coordination.
 
 ## Current Priorities
-1. Build the best ADU website in Santa Barbara.
-2. Rank #1 locally for ADU-related searches.
+1. Present the full studio clearly: interiors first, ADU as specialty.
+2. Rank locally for interior design and ADU-related searches.
 3. Deliver an exceptional client experience.
-4. Build a portfolio of architecturally beautiful projects.
+4. Build a portfolio of residential and hospitality-caliber work.
 5. Develop systems that scale as the company grows.
 
 ## Guiding Principle
-Design first. Build second. Trust always.
+Design first. Coordinate with care. Trust always.
 
 ## Company docs
 - [BRAND.md](./BRAND.md)
@@ -21,7 +21,6 @@ Design first. Build second. Trust always.
 - [OPERATIONS.md](./OPERATIONS.md)
 - [TODO.md](./TODO.md)
 - [AGENTS.md](./AGENTS.md)
-- [CURSOR_WEBSITE_REWRITE_PROMPT.md](./CURSOR_WEBSITE_REWRITE_PROMPT.md)
 
 ## Development
 
@@ -46,12 +45,12 @@ Open [http://localhost:3000](http://localhost:3000).
 ### Site map
 
 - `/` — Home
-- `/services` + `/services/[slug]` — ADU service pages
-- `/process` — Design. Coordinate. Deliver.
-- `/areas` + `/areas/[slug]` — Local landing pages
+- `/services` + `/services/[slug]` — Interiors & ADU service pages
+- `/process` — Design. Source. Coordinate.
+- `/areas` + `/areas/[slug]` — Local landing pages (ADU specialty SEO)
 - `/work` + `/work/[slug]` — Case studies
 - `/about` — Studio & founder
-- `/faq` — Homeowner FAQ
+- `/faq` — Client FAQ
 - `/contact` — Consultation
 - `/sitemap.xml`, `/robots.txt`
 

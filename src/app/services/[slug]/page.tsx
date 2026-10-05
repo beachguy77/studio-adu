@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!service) return {};
 
   return createPageMetadata({
-    title: service.metaTitle.replace(" | Studio IA", ""),
+    title: service.metaTitle.replace(" | Studio IAR", ""),
     description: service.metaDescription,
     path: `/services/${service.slug}`,
   });

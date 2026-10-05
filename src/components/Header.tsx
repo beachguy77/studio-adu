@@ -69,7 +69,7 @@ export default function Header({
         <Link href="/" className="logo" onClick={closeMenu}>
           <Image
             src="/studio-ia-logo.png"
-            alt="Studio IA"
+            alt="Studio IAR"
             width={250}
             height={150}
             className="logo-img"

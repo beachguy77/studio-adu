@@ -1,9 +1,9 @@
-# Studio IA TODO
+# Studio IAR TODO
 
 ## 🚀 Launch Priorities
-- [ ] Register Studio IA business
+- [ ] Register Studio IAR business
 - [ ] Secure domain name
-- [ ] Create logo and visual identity
+- [ ] Create logo and visual identity (Studio IAR)
 - [ ] Set up Google Business Profile
 - [ ] Set up Google Search Console
 - [ ] Set up Google Analytics
@@ -43,4 +43,4 @@
 - [ ] Sell pre-designed ADU plans
 - [ ] Offer virtual consultations
 - [ ] Expand throughout California
-- [ ] License Studio IA designs
+- [ ] License Studio IAR designs

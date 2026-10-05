@@ -21,8 +21,8 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Studio IA | Santa Barbara ADU Design & Project Management",
-    template: "%s | Studio IA",
+    default: "Studio IAR | Santa Barbara Interior Design & Coordination",
+    template: "%s | Studio IAR",
   },
   description: siteConfig.description,
   applicationName: siteConfig.name,
@@ -39,12 +39,12 @@ export const metadata: Metadata = {
     locale: siteConfig.locale,
     url: siteUrl,
     siteName: siteConfig.name,
-    title: "Studio IA | Santa Barbara ADU Design & Project Management",
+    title: "Studio IAR | Santa Barbara Interior Design & Coordination",
     description: siteConfig.description,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Studio IA | Santa Barbara ADU Design & Project Management",
+    title: "Studio IAR | Santa Barbara Interior Design & Coordination",
     description: siteConfig.description,
   },
   robots: {

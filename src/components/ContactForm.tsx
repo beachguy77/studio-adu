@@ -5,7 +5,7 @@ import { siteConfig } from "@/lib/site";
 import Reveal from "@/components/Reveal";
 
 export default function ContactForm({
-  heading = "Let’s talk about your ADU",
+  heading = "Let’s talk about your project",
   showIntro = true,
 }: {
   heading?: string;
@@ -27,9 +27,10 @@ export default function ContactForm({
             <p className="eyebrow">Get in touch</p>
             <h2>{heading}</h2>
             <p>
-              Schedule a consultation. We&apos;ll discuss your property,
-              timeline, and which coordinated services fit — with one point of
-              contact across Santa Barbara County.
+              Schedule a consultation. We&apos;ll discuss your space,
+              timeline, and which services fit — design consulting, sourcing,
+              project coordination, or ADU coordination across Santa Barbara
+              County.
             </p>
 
             <ul className="contact-details">
