@@ -1,14 +1,10 @@
 import Link from "next/link";
-import { heroImage } from "@/lib/content";
 
 export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-media" aria-hidden="true">
-        <div
-          className="hero-bg"
-          style={{ backgroundImage: `url(${heroImage})` }}
-        />
+        <div className="hero-bg hero-bg-sleek" />
       </div>
       <div className="container hero-content">
         <p className="hero-brand">Studio IAR</p>
@@ -20,7 +16,7 @@ export default function Hero() {
         <p className="hero-lead">
           Studio IAR is a Santa Barbara interior design studio — consulting,
           material sourcing, and project coordination for residential and
-          hospitality, with a local specialty in ADU coordination.
+          hospitality projects.
         </p>
         <p className="hero-promise">
           One point of contact. One trusted team. One carefully managed

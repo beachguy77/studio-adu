@@ -242,11 +242,62 @@ a:hover {
   animation: hero-zoom 22s var(--ease-out) infinite alternate;
 }
 
+.hero-bg-sleek {
+  inset: 0;
+  animation: none;
+  background-color: #161d19;
+  background-image:
+    radial-gradient(
+      ellipse 90% 70% at 12% 18%,
+      rgba(77, 117, 92, 0.22),
+      transparent 58%
+    ),
+    radial-gradient(
+      ellipse 70% 55% at 88% 78%,
+      rgba(138, 129, 116, 0.16),
+      transparent 52%
+    ),
+    linear-gradient(
+      155deg,
+      #121814 0%,
+      #1c2420 42%,
+      #151b17 100%
+    );
+}
+
+.hero-bg-sleek::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.35;
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.03) 1px,
+      transparent 1px
+    );
+  background-size: 72px 72px;
+  mask-image: radial-gradient(ellipse 75% 65% at 50% 40%, #000 20%, transparent 75%);
+}
+
 .hero-bg::after {
   content: "";
   position: absolute;
   inset: 0;
   background: var(--color-hero-overlay);
+}
+
+.hero-bg-sleek::after {
+  background: linear-gradient(
+    105deg,
+    rgba(18, 28, 22, 0.55) 0%,
+    rgba(18, 28, 22, 0.28) 55%,
+    rgba(18, 28, 22, 0.18) 100%
+  );
 }
 
 @keyframes hero-zoom {
@@ -978,6 +1029,19 @@ a:hover {
   color: var(--color-text-muted);
   font-size: 0.98rem;
   max-width: 40rem;
+}
+
+.services-specialty {
+  margin: 2rem 0 0;
+  font-size: 0.98rem;
+  color: var(--color-text-muted);
+  max-width: 40rem;
+}
+
+.services-specialty a {
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
 }
 
 /* Portfolio — photo-forward */

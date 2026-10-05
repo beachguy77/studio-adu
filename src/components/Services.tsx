@@ -11,8 +11,8 @@ export default function Services() {
             <p className="eyebrow">What we offer</p>
             <h2>Interiors, sourcing, and coordination</h2>
             <p className="section-lead">
-              Design consulting, material sourcing, and project coordination —
-              plus ADU coordination as a local specialty with licensed partners.{" "}
+              Design consulting, material sourcing, and project coordination for
+              homes and hospitality.{" "}
               <Link href="/services">View all services</Link>.
             </p>
           </div>
@@ -33,6 +33,16 @@ export default function Services() {
             </Reveal>
           ))}
         </div>
+
+        <Reveal delay={200}>
+          <p className="services-specialty">
+            Planning an accessory dwelling unit?{" "}
+            <Link href="/services/design-build">
+              Explore our ADU coordination
+            </Link>
+            .
+          </p>
+        </Reveal>
       </div>
     </section>
   );

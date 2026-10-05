@@ -13,9 +13,7 @@ export default function About() {
             <p>
               Studio IAR simplifies beautiful projects by combining interior
               design consulting, material sourcing, and project coordination —
-              and by bringing licensed architects, engineers, consultants, and
-              builders into one managed experience when an ADU or complex build
-              requires it.
+              one trusted point of contact from concept through installation.
             </p>
             <Link href="/about" className="text-link">
               Meet the studio

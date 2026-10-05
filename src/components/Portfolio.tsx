@@ -12,7 +12,7 @@ export default function Portfolio() {
             <p className="eyebrow">Selected work</p>
             <h2>Selected projects</h2>
             <p className="section-lead">
-              Interiors and ADU delivery across the county.{" "}
+              Recent work across Santa Barbara County.{" "}
               <Link href="/work">View all projects</Link>.
             </p>
           </div>

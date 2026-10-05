@@ -36,6 +36,30 @@ export const homeFaqs: FaqItem[] = [
   },
 ];
 
+/** Homepage FAQ — interiors-first; ADU detail lives on services/FAQ pages. */
+export const homePageFaqs: FaqItem[] = [
+  {
+    question: "What does Studio IAR do?",
+    answer:
+      "Studio IAR is a Santa Barbara interior design studio offering design consulting, material sourcing, and project coordination for residential and hospitality projects.",
+  },
+  {
+    question: "Are you architects or general contractors?",
+    answer:
+      "We collaborate with licensed California architects whenever architectural services are required. Construction is performed by licensed California contractors according to each client agreement.",
+  },
+  {
+    question: "Do I need to hire and manage every consultant myself?",
+    answer:
+      "No. Studio IAR is built to be one point of contact — coordinating design, sourcing, and licensed partners into one managed experience.",
+  },
+  {
+    question: "Which cities does Studio IAR serve?",
+    answer:
+      "We serve Santa Barbara, Montecito, Goleta, Carpinteria, Summerland, Ventura, and surrounding communities.",
+  },
+];
+
 export const consultingFaqs: FaqItem[] = [
   {
     question: "What is included in interior design consulting?",

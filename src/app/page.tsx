@@ -10,20 +10,20 @@ import About from "@/components/About";
 import FaqSection from "@/components/FaqSection";
 import Contact from "@/components/Contact";
 import JsonLd from "@/components/JsonLd";
-import { homeFaqs } from "@/lib/faqs";
+import { homePageFaqs } from "@/lib/faqs";
 import { createPageMetadata, faqJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Interior Design & Project Coordination in Santa Barbara",
   description:
-    "Studio IAR is a Santa Barbara interior design studio — design consulting, material sourcing, and project coordination for residential and hospitality, with ADU coordination as a local specialty.",
+    "Studio IAR is a Santa Barbara interior design studio — design consulting, material sourcing, and project coordination for residential and hospitality projects.",
   path: "/",
 });
 
 export default function HomePage() {
   return (
     <SiteShell headerVariant="transparent">
-      <JsonLd data={faqJsonLd(homeFaqs)} />
+      <JsonLd data={faqJsonLd(homePageFaqs)} />
       <Hero />
       <WhyStudioIA />
       <Services />
@@ -31,7 +31,7 @@ export default function HomePage() {
       <Process />
       <AreasPreview />
       <About />
-      <FaqSection faqs={homeFaqs} title="Questions homeowners ask us" />
+      <FaqSection faqs={homePageFaqs} title="Questions clients ask us" />
       <Contact />
     </SiteShell>
   );

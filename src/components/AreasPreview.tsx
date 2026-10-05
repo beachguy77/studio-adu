@@ -11,8 +11,8 @@ export default function AreasPreview() {
             <p className="eyebrow">Service areas</p>
             <h2>Serving the South Coast</h2>
             <p className="section-lead">
-              Interiors across Santa Barbara County — with dedicated ADU pages
-              for the communities we serve most often.
+              Homes and hospitality across Santa Barbara County and nearby
+              communities.
             </p>
           </div>
         </Reveal>

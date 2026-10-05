@@ -11,8 +11,7 @@ export default function WhyStudioIA() {
             <h2>One team. One process. Beautiful spaces.</h2>
             <p className="section-lead">
               Design. Source. Coordinate. — without asking you to manage every
-              firm yourself. ADU coordination is one specialty within a broader
-              interiors practice.
+              firm yourself.
             </p>
           </div>
         </Reveal>

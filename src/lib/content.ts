@@ -20,13 +20,6 @@ export const servicesPreview = [
       "One point of contact across consultants and trades — fewer handoffs and a calmer path from idea to installation.",
     href: "/services/project-coordination",
   },
-  {
-    step: "04",
-    title: "ADU coordination",
-    description:
-      "A local specialty: feasibility through design, permitting, and construction coordination with licensed partners.",
-    href: "/services/design-build",
-  },
 ] as const;
 
 export const processSteps = [
@@ -55,7 +48,7 @@ export const processSteps = [
 export const aboutStats = [
   { value: "15 years", label: "Interior design experience" },
   { value: "One studio", label: "Consulting, sourcing & coordination" },
-  { value: "ADU specialty", label: "Local coordination with licensed partners" },
+  { value: "South Coast", label: "Santa Barbara County & nearby" },
 ] as const;
 
 export const whyStudioIAR = {
@@ -75,8 +68,9 @@ export const whyStudioIAR = {
 
 export const testimonial = {
   quote:
-    "Studio IAR walked us through design and permits with patience and clarity. It felt personal the whole way — not like managing a dozen handoffs.",
+    "Studio IAR walked us through design and finishes with patience and clarity. It felt personal the whole way — not like managing a dozen handoffs.",
   attribution: "Homeowners, Santa Barbara",
 };
 
+/** Used for OG/social when a photo is needed; homepage hero is CSS-only. */
 export const heroImage = "/work/santa-barbara-west-side-adu/kitchen.jpg";
